@@ -4,7 +4,7 @@ import '../custome.css';
 const Header = () => {
   return (
     <div className=' w-[100vw] max-w-[1450px]  flex justify-center  fixed  mt-6 uppercase z-50 '>
-      <div className=' h-20 p-4 w-[90%] flex items-center justify-between rounded-full shadow-2xl backdrop-blur-3xl'>
+      <div className=' h-20 p-4 w-[90%] flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl'>
         <div className=' w-16'>
           <NavLink to={'/'}>
             <img
