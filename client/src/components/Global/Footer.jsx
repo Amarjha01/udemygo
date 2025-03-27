@@ -25,7 +25,7 @@ const Footer = () => {
                 href=""
                 className="relative group z-1"
               >
-                <div className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 lg:py-3 font-semibold w-full bg-gray-900 text-white rounded-md">
+                <div className="inline-flex items-center justify-center gap-2 rounded-full px-4 py-2.5 lg:py-3 font-semibold w-full bg-gray-900 text-white ">
                   WhatsApp Us
                 </div>
               </a>
