@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 
+import gradientimg1 from '../../assets/gradientimg1.webp'
+
 const testimonials = [
   {
     name: "Rachel Green",
@@ -34,7 +36,13 @@ const TestimonialCarousel = () => {
   };
 
   return (
-    <div className="relative flex items-center justify-center h-[400px] bg-gradient-to-r from-purple-600 to-indigo-600 p-6 rounded-lg">
+   <div className=" ">
+     <div className="relative flex items-center justify-center h-[400px] bg-[#181e2e] rounded-4xl  ">
+        <div className=" absolute h-full w-full    ">
+            
+            <img src={gradientimg1} alt="" className="  absolute bottom-0 w-[100%] -translate-x-[50%] " />
+            <img src={gradientimg1} alt="" className="  absolute rotate-180 top-[99.9%] w-[100%] -translate-x-[50%] " />
+        </div>
       {/* Arrows */}
       <button
         onClick={prevSlide}
@@ -72,6 +80,7 @@ const TestimonialCarousel = () => {
         <ArrowRight size={24} />
       </button>
     </div>
+   </div>
   );
 };
 
