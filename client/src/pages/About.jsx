@@ -1,8 +1,11 @@
 import React from 'react'
+import CarouselComponent from '../components/CarouselComponent'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div className=''>
+      <CarouselComponent />
+    </div>
   )
 }
 
