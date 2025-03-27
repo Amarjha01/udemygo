@@ -24,7 +24,7 @@ const infiniteData = [...cardData, ...cardData, ...cardData, ...cardData];
 
 const Card = ({ data }) => {
   return (
-    <div className="border rounded-lg shadow-lg p-4 w-80 bg-white flex-shrink-0 mx-2">
+    <div className=" rounded-lg shadow-lg p-4 w-80 bg-white flex-shrink-0 mx-2">
       <div className="flex justify-between">
         <img src={data.logo} alt="Logo" className="h-8" />
         {data.emiPlan && <span className="bg-blue-500 text-white px-2 py-1 rounded">EMI Plan</span>}
@@ -49,7 +49,7 @@ const Card = ({ data }) => {
 
 const CardList = () => {
   return (
-    <div className="relative w-full overflow-hidden  py-10 z-10">
+    <div className="relative w-full overflow-hidden  py-10 my-10 rounded-4xl bg-amber-50 z-10 ">
       <div className="flex w-max animate-scroll flex-nowrap">
         {infiniteData.map((item, index) => (
           <Card key={index} data={item} />

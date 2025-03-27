@@ -37,10 +37,11 @@ const TestimonialCarousel = () => {
 
   return (
    <div className=" ">
-     <div className="relative flex items-center justify-center h-[400px] bg-[#181e2e] rounded-4xl mt-16 overflow-hidden ">
-        <div className=" absolute h-full w-full   ">
+     <div className="relative flex items-center justify-center h-[400px] bg-[#181e2e] rounded-4xl  ">
+        <div className=" absolute h-full w-full    ">
             
-            <img src={gradientimg1} alt="" className="  absolute bottom-0 w-[100%] -translate-x-[50%]" />
+            <img src={gradientimg1} alt="" className="  absolute bottom-0 w-[100%] -translate-x-[50%] " />
+            <img src={gradientimg1} alt="" className="  absolute rotate-180 top-[99.9%] w-[100%] -translate-x-[50%] " />
         </div>
       {/* Arrows */}
       <button

@@ -14,16 +14,16 @@ const Home = () => {
         
       </div>
 
-      {/* Testimonials */}
-      <section>
-        <CardList />
-      </section>
+    
 
       {/* Carousel Testimonial */}
       <section>
         <TestimonialCarousel />
       </section>
-
+  {/* clgs & univercity */}
+  <section>
+        <CardList />
+      </section>
       {/* FAQs / Questions */}
       <section>
         <Question />
