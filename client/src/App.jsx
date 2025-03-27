@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className=' mt-10'>
+    <div className=' mt-8'>
     <Header />
      <Outlet />
      <Footer />
