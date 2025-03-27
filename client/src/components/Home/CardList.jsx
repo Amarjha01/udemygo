@@ -49,7 +49,7 @@ const Card = ({ data }) => {
 
 const CardList = () => {
   return (
-    <div className="relative w-full overflow-hidden  py-10">
+    <div className="relative w-full overflow-hidden  py-10 z-10">
       <div className="flex w-max animate-scroll flex-nowrap">
         {infiniteData.map((item, index) => (
           <Card key={index} data={item} />

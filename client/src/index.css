@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 body{
-background: rgb(210,210,230);
-background: linear-gradient(90deg, rgb(198, 198, 234) 0%, rgba(217,202,239,1) 91%);
+/* background: rgb(210,210,230);
+background: linear-gradient(90deg, rgb(198, 198, 234) 0%, rgba(217,202,239,1) 91%); */
+background-color: #dddef8;
 display: flex;
 justify-content: center;
-width: 100vw;
 }
