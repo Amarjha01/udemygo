@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from "../components/About/Hero"
+import Founder from '../components/About/Founder'
 
-const About = () => {
+function About() {
   return (
-    <div>About</div>
+    <>
+      <Hero />
+      <Founder />
+    </>
   )
 }
 
