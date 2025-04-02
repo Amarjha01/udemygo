@@ -1,92 +1,83 @@
+import { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import '../custome.css';
+import { IoReorderThreeOutline } from "react-icons/io5";
+import { X } from "lucide-react";
+import { gsap } from "gsap";
+import "../custome.css";
 
 const Header = () => {
-  return (
-    <div className=' w-[100vw] max-w-[1450px]  flex justify-center  fixed  mt-6 uppercase z-50 '>
-      <div className=' h-20 p-4 w-[90%] flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl'>
-        <div className=' w-16'>
-          <NavLink to={'/'}>
-            <img
-              src="https://udemygo.com/wp-content/uploads/2025/03/UDEMYGO-e1742794575684.png"
-              alt="logo"
-              className='cursor-pointer'
-            />
-          </NavLink>
-        </div>
-        <div>
-          <ul className='hidden lg:flex items-center space-x-1 bg-gray-200 py-3 px-2 rounded-full text-lg font-semibold'>
-            <li>
-              <NavLink
-                to={'/'}
-                className={({ isActive }) =>
-                  `px-4 py-3 rounded-full transition-all ${
-                    isActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white cursor-pointer'
-                  }`
-                }
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to={'/about'}
-                className={({ isActive }) =>
-                  `px-4 py-3 rounded-full transition-all ${
-                    isActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white cursor-pointer'
-                  }`
-                }
-              >
-                About
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                to={'/corporatepartnership'}
-                className={({ isActive }) =>
-                  `px-4 py-3 rounded-full transition-all ${
-                    isActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white cursor-pointer'
-                  }`
-                }
-              >
-                Corporate Partnership
-              </NavLink>
-            </li>
-            <li>
-            <li>
-  <select
-    name="explore universities"
-    className="cursor-pointer bg-gray-200 rounded-full px-3 py-1 hover:bg-black hover:text-white transition-all"
-    onChange={(e) => {
-      if (e.target.value) window.location.href = e.target.value;
-    }}
-  >
-    <option value="/UniversityCatalog">University Catalog</option>
-    <option value="/CourseCatalog">Course Catalog</option>
-  </select>
-</li>
+  const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
+  const menuRef = useRef(null);
+  const linksRef = useRef([]);
+  const tl = useRef(null);
 
-            </li>
-            <li>
-              <NavLink
-                to={'/contact'}
-                className={({ isActive }) =>
-                  `px-4 py-3 rounded-full transition-all ${
-                    isActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white cursor-pointer'
-                  }`
-                }
-              >
-                Contact
-              </NavLink>
-            </li>
-          </ul>
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (menuRef.current) {
+      tl.current = gsap.timeline({ paused: true });
+      tl.current.fromTo(menuRef.current, { x: "100%", opacity: 0 }, { x: "0%", opacity: 1, duration: 0.4, ease: "power3.out" });
+      tl.current.fromTo(linksRef.current, { x: 40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.3, delay: 0.05, stagger: 0.08, ease: "power3.out" });
+    }
+  }, []);
+
+  useEffect(() => {
+    if (tl.current) {
+      isOpen ? tl.current.play() : tl.current.reverse();
+    }
+  }, [isOpen]);
+
+  return (
+    <div className="w-full md:max-w-[1322px] flex justify-center uppercase bg-amber-100">
+      <div className="h-20 p-4 mt-6 w-[90%] md:w-[70%] md:max-w-[1150px] bg-amber-0 fixed z-50 flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl">
+        <div className="w-16">
+          <NavLink to={"/"}><img src="UDEMYGO-LOGO.webp" alt="logo" className="cursor-pointer" /></NavLink>
         </div>
-        <div className='relative  cursor-pointer flex justify-center items-center'>
+
+        <ul className="hidden lg:flex items-center space-x-1 bg-gray-200 py-3 px-2 rounded-full text-lg font-semibold">
+          <li><NavLink to="/" className={({ isActive }) => `px-4 py-3 rounded-full transition-all ${isActive ? "bg-black text-white" : "hover:bg-black hover:text-white cursor-pointer"}`}>Home</NavLink></li>
+          <li><NavLink to="/about" className={({ isActive }) => `px-4 py-3 rounded-full transition-all ${isActive ? "bg-black text-white" : "hover:bg-black hover:text-white cursor-pointer"}`}>About</NavLink></li>
+          <li className="relative" ref={dropdownRef}>
+            <button onClick={() => setIsOpen(!isOpen)} className="px-4 rounded-full transition-all hover:bg-black hover:text-white cursor-pointer uppercase">Explore Universities</button>
+            {isOpen && (
+              <div className="absolute mt-2 w-full bg-white text-gray-800 shadow-lg rounded-md">
+                <NavLink to="/explore-universities/university-catalog" className="block px-4 py-2 hover:bg-gray-200" onClick={() => setIsOpen(false)}>University Catalog</NavLink>
+                <NavLink to="/explore-universities/course-catalog" className="block px-4 py-2 hover:bg-gray-200" onClick={() => setIsOpen(false)}>Course Catalog</NavLink>
+              </div>
+            )}
+          </li>
+          <li><NavLink to="/contact" className={({ isActive }) => `px-4 py-3 rounded-full transition-all ${isActive ? "bg-black text-white" : "hover:bg-black hover:text-white cursor-pointer"}`}>Contact</NavLink></li>
+        </ul>
+
+        <div className="relative cursor-pointer flex items-center">
           <div className="custome-bg"></div>
-          <button className="bg-black text-white text-sm rounded-full px-4 py-3 hover:bg-gray-800 transition-all">
-            WhatsApp Us
-          </button>
+          <button className="bg-black text-white text-sm rounded-full px-4 py-3 hover:bg-gray-800 transition-all">WhatsApp Us</button>
+          <div className="lg:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} className="text-4xl py-3">{isOpen ? <X size={30} /> : <IoReorderThreeOutline />}</button>
+          </div>
         </div>
+      </div>
+
+      <div ref={menuRef} className={`lg:hidden fixed top-[15%] right-5 h-fit w-4/6 sm:w-3/6 bg-gray-800 text-white transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-50 rounded-2xl shadow-xl`}>
+        <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-white text-3xl"><X /></button>
+        <ul className="flex flex-col my-5 space-y-6 text-lg text-center">
+          {['Home', 'About', 'Universities', 'Courses', 'Contact'].map((item, index) => (
+            <li key={index} ref={(el) => (linksRef.current[index] = el)}>
+              <NavLink to={`/${item.toLowerCase()}`} className="mobile-nav-link" onClick={() => setIsOpen(false)}>{item}</NavLink>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
