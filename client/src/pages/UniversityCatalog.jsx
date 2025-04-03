@@ -25,14 +25,14 @@ import {universityCardData} from '../components/Home/universityData.jsx';
 
 const UniversityCatalog = () => {
   return (
-    <div className="max-w-full px-10 py-6 pt-[5%] my-2 bg-[#bd1f2e] rounded-4xl">
+    <div className="max-w-full py-6 px-3 pt-[5%] my-2 bg-[#bd1f2e] rounded-4xl">
       <h2 className="text-4xl font-bold mb-6 text-center text-white">Choose Your University</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 space-x-2 space-y-2 ">
         {universityCardData.map((uni) => (
           <Link
             to={`/university/${uni.id}`}
             key={uni.id}
-            className="relative rounded-lg shadow-lg p-6 w-96 bg-white flex-shrink-0 mx-4 block"
+            className="relative rounded-lg shadow-lg p-6 w-96 bg-white flex-shrink-0  block"
           >
             {/* University Logo & EMI Plan */}
             <div className="flex justify-between p-2">

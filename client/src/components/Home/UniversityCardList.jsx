@@ -83,10 +83,10 @@ const UniversityCardList = () => {
       </div>
 
       {/* Scrolling Container */}
-      <div className="relative w-full  overflow-hidden py-6  rounded-4xl bg-amber-50 z-10">
-        <div className="flex w-max animate-scroll flex-nowrap ">
+      <div className="relative w-full  overflow-scroll py-6  rounded-4xl bg-amber-50 z-10">
+        <div className="flex w-max animate-scroll  flex-nowrap ">
           {universityCardData.map((item, index) => (
-            <UniversityCard key={index} data={{ ...item, id: index }} />
+            <UniversityCard key={index} data={{ ...item, id: index+1 }} />
           ))}
           {universityCardData.map((item, index) => (
             <UniversityCard

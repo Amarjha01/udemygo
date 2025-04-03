@@ -121,6 +121,23 @@ export const universityCardData = [
       duration: "2 Years",
       semesters: "4 Semesters",
       fee: "₹200,000"
+  },
+  {
+      id: 8,
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
+      emiPlan: true,
+      image: "https://www.nmims.edu/images/gallery/navimumbai-campus/1.jpg",
+      rating: "A+",
+      naac: "NAAC",
+      creditPoints: "58",
+      rank: "84th",
+      managementRank: "21st",
+      year: 2024,
+      name: "NMIMS",
+      location: "Mumbai, Maharashtra",
+      duration: "2 Years",
+      semesters: "4 Semesters",
+      fee: "₹400,000"
   }
   ];
 
@@ -264,7 +281,30 @@ export const universityCardData = [
   applicationFees: "₹0",
   totalFees: "₹200,000",
   emiPlan: true
+},
+8:{
+  id: 8,
+  name: "Narsee Monjee Institute of Management Studies",
+  location: "Mumbai, Maharashtra",
+  description:
+    "Shri Vile Parle Kelavani Mandal's Narsee Monjee Institute of Management Studies (abbreviated as SVKM's NMIMS) is a private deemed university located in Mumbai. It has 17 constituent schools that offer both undergraduate and postgraduate courses in management, engineering, commerce, pharmacy, architecture, economics, mathematical sciences, hospitality, science, law, aviation, liberal arts, performing arts, architecture & design.",
+  image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/NMIMS_Campus.jpg",
+  logo: "https://upload.wikimedia.org/wikipedia/en/1/1e/NMIMS_Logo.png",
+  year: 2024,
+  naac: "A+",
+  rank: "84th",
+  founded: 1981,
+  creditPoints: 58,
+  semesters: 4,
+  duration: "2 Years",
+  course: "Executive MBA",
+  semesterFees: "₹100,000",
+  applicationFees: "₹1,500",
+  totalFees: "₹400,000",
+  emiPlan: true
 }
+
+
 
 
 
