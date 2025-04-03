@@ -6,20 +6,50 @@ import gradientimg1 from '../../assets/gradientimg1.webp'
 
 const testimonials = [
   {
-    name: "Rachel Green",
-    title: "Founder",
-    text: "I want to thank you for creating such an amazing platform which helps entrepreneurs like me to take their product to the next level.",
+    name: "Amit Sharma",
+    title: "BBA Student",
+    text: "The interactive lessons and case studies helped me understand real-world business strategies like never before!",
   },
   {
-    name: "Matt Le’Blanc",
-    title: "Director",
-    text: "The support and guidance I received have been truly outstanding. This has helped me refine my strategies and grow.",
+    name: "Neha Verma",
+    title: "MBA Graduate",
+    text: "This program provided me with the leadership skills and confidence to step into the corporate world with a strong foundation.",
   },
   {
-    name: "Sarah Johnson",
-    title: "CEO, StartupX",
-    text: "Amazing experience! The insights gained have been a game changer for my business journey.",
+    name: "Daniel Roberts",
+    title: "B.Tech CSE Student",
+    text: "The curriculum is well-structured, and the hands-on projects truly prepare you for a tech career!",
   },
+  {
+    name: "Priya Mehta",
+    title: "MCA Student",
+    text: "I loved the data science modules, and the career support was outstanding! I landed my dream job thanks to this platform.",
+  },
+  {
+    name: "Karan Singh",
+    title: "B.Com Student",
+    text: "The finance and accounting courses here are top-notch, making concepts easy to grasp and apply in the real world.",
+  },
+  {
+    name: "Sophia Lewis",
+    title: "M.Sc. Biotechnology",
+    text: "The faculty and research opportunities exceeded my expectations! This program has set me up for a successful research career.",
+  },
+  {
+    name: "Rahul Nair",
+    title: "BCA Student",
+    text: "I learned coding from scratch, and the structured approach made it so easy to grasp even complex topics.",
+  },
+  {
+    name: "Emily Carter",
+    title: "MBA in Marketing",
+    text: "The digital marketing strategies and case studies were invaluable in shaping my understanding of the industry.",
+  },
+  {
+    name: "Aditya Roy",
+    title: "M.Tech AI & ML",
+    text: "The AI-focused curriculum and real-world projects have given me an edge in the job market!",
+  }
 ];
 
 const TestimonialCarousel = () => {
@@ -36,7 +66,10 @@ const TestimonialCarousel = () => {
   };
 
   return (
-   <div className=" ">
+   <div className="  ">
+    <div className=" lg:hidden w-full text-4xl md:text-6xl text-center uppercase font-bold">
+    <p>Testimonials</p>
+    </div>
      <div className="relative flex items-center justify-center h-[400px] bg-[#181e2e] rounded-4xl  ">
         <div className=" absolute h-full w-full    ">
             
@@ -52,7 +85,7 @@ const TestimonialCarousel = () => {
       </button>
 
       {/* Testimonial Content */}
-      <div className="relative w-full max-w-lg">
+      <div className="relative w-full  max-w-80 md:max-w-lg">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}
@@ -62,8 +95,8 @@ const TestimonialCarousel = () => {
             transition={{ duration: 0.5 }}
             className="bg-white p-6 rounded-lg shadow-xl text-center relative"
           >
-            <div className="text-purple-500 text-4xl font-serif">“</div>
-            <p className="text-gray-700 text-lg">{testimonials[currentIndex].text}</p>
+            <div className="text-purple-500 text-7xl font-serif">“</div>
+            <p className="text-gray-700 font-bold uppercase text-xl">{testimonials[currentIndex].text}</p>
             <div className="mt-4 border-t pt-2">
               <h3 className="font-semibold">{testimonials[currentIndex].name}</h3>
               <p className="text-gray-500 text-sm">{testimonials[currentIndex].title}</p>
