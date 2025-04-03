@@ -1,5 +1,6 @@
-import { useParams } from "react-router-dom";
+import { NavLink, useParams } from "react-router-dom";
 import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 import {universityDetailData} from '../components/Home/UniversityData.jsx'
 
@@ -34,12 +35,23 @@ const University = () => {
           </div>
 
           {/* Buttons */}
-          <div className="mt-6 flex gap-4">
-            <button className="bg-black text-white px-6 py-2 rounded flex items-center gap-2">
-              <span>📱 WhatsApp</span>
+          <div className=" flex gap-3 mt-12 ">
+          <a href="https://api.whatsapp.com/send?phone=918104550586&text=hello%20iam%20intrested">
+            <button className=" px-7 py-4 bg-black text-white rounded-xl flex items-center gap-3 font-bold cursor-pointer z-10">
+              {" "}
+              <span>
+                <FaWhatsapp />
+              </span>
+              Whatsapp
             </button>
-            <button className="bg-white border px-6 py-2 rounded text-black">Learn More</button>
-          </div>
+          </a>
+          <NavLink
+            to="/about"
+            className="px-6 py-3 border-2 border-[#181e2e] rounded-xl font-bold cursor-pointer z-10 text-center"
+          >
+            Learn More
+          </NavLink>
+        </div>
         </div>
 
         {/* Image & Fee Details */}

@@ -19,9 +19,11 @@
     }
   }
   
+ @media (min-width: 1024px) {
   .animate-scroll {
-    /* animation: scroll 45s linear infinite; */
+    animation: scroll 45s linear infinite;
   }
+ }
 
   @keyframes scroll-logo {
     from {

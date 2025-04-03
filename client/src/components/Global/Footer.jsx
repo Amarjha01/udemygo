@@ -45,7 +45,7 @@ const Footer = () => {
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
             <h2 className="font-semibold uppercase opacity-80">Top Universities</h2>
             <ul className="font-medium">
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/academic-catalog">Indian Institute Of Management (IIM) Kozhikode</NavLink></li>
+              {/* <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/academic-catalog">Indian Institute Of Management (IIM) Kozhikode</NavLink></li> */}
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
@@ -61,6 +61,9 @@ const Footer = () => {
                 eduomnipvtltd@gmail.com
               </a>
             </div>
+          </div>
+          <div className=' w-full flex justify-center'>
+            <p>© Copyright udemygo.com. All rights reserved designed by ww.febtech.in</p>
           </div>
         </div>
       </div>

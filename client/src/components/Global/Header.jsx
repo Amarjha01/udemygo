@@ -7,10 +7,24 @@ import "../custome.css";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled , setIsScrolled] =  useState(false)
   const dropdownRef = useRef(null);
   const menuRef = useRef(null);
   const linksRef = useRef([]);
   const tl = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 20) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      } 
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -32,6 +46,14 @@ const Header = () => {
     }
   }, []);
 
+  const navItems = [
+    { name: "Home", path: "/" },
+    { name: "About", path: "/about" },
+    { name: "University", path: "/explore-universities/university-catalog" },
+    { name: "Courses", path: "/explore-universities/course-catalog" },
+    { name: "Contact", path: "/contact" },
+  ];
+
   useEffect(() => {
     if (tl.current) {
       isOpen ? tl.current.play() : tl.current.reverse();
@@ -40,7 +62,8 @@ const Header = () => {
 
   return (
     <div className="w-full md:max-w-[1322px] flex justify-center uppercase bg-amber-100">
-      <div className="h-20 p-4 mt-6 w-[90%] md:w-[70%] md:max-w-[1150px] bg-amber-0 fixed z-50 flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl">
+      <div className={`h-20 p-4 mt-6 w-[90%] md:w-[70%] md:max-w-[1150px] bg-amber-0 fixed z-50 flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl
+       ${ isScrolled ? "-translate-y-5 md:-translate-y-15" : "translate-y-0"} `}>
         <div className="w-16">
           <NavLink to={"/"}><img src="UDEMYGO-LOGO.webp" alt="logo" className="cursor-pointer" /></NavLink>
         </div>
@@ -70,11 +93,11 @@ const Header = () => {
       </div>
 
       <div ref={menuRef} className={`lg:hidden fixed top-[15%] right-5 h-fit w-4/6 sm:w-3/6 bg-gray-800 text-white transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out z-50 rounded-2xl shadow-xl`}>
-        <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-white text-3xl"><X /></button>
+        <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-white text-3xl z-20"><X /></button>
         <ul className="flex flex-col my-5 space-y-6 text-lg text-center">
-          {['Home', 'About', 'Universities', 'Courses', 'Contact'].map((item, index) => (
+          {navItems.map((item, index) => (
             <li key={index} ref={(el) => (linksRef.current[index] = el)}>
-              <NavLink to={`/${item.toLowerCase()}`} className="mobile-nav-link" onClick={() => setIsOpen(false)}>{item}</NavLink>
+              <NavLink to={item.path} className="mobile-nav-link" onClick={() => setIsOpen(false)}>{item.name}</NavLink>
             </li>
           ))}
         </ul>

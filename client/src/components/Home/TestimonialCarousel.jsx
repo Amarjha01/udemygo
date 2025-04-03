@@ -16,11 +16,6 @@ const testimonials = [
     text: "This program provided me with the leadership skills and confidence to step into the corporate world with a strong foundation.",
   },
   {
-    name: "Daniel Roberts",
-    title: "B.Tech CSE Student",
-    text: "The curriculum is well-structured, and the hands-on projects truly prepare you for a tech career!",
-  },
-  {
     name: "Priya Mehta",
     title: "MCA Student",
     text: "I loved the data science modules, and the career support was outstanding! I landed my dream job thanks to this platform.",
