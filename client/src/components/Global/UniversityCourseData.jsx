@@ -72,7 +72,7 @@ export const universitiesCoursesData = [
         },
         {
           "id": 8,
-          "name": "Narsee Monjee Institute of Management Studies",
+          "name": "NMIMS",
           "course": "Master's of Business Administration",
           "degree": "Master Degree",
           "fee": "₹220,000",

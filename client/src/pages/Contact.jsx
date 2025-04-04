@@ -118,13 +118,15 @@ const Contact = () => {
                 </span>
               )}
             </div>
-            <button
+          <div>
+              <button
               type="submit"
               className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#bd1e2d] to-[#faa318] text-white py-3 px-6 rounded-md cursor-pointer hover:bg-blue-700"
               disabled={isSubmitting}
             >
               <IoSend /> Send Message
             </button>
+          </div>
           </form>
         </div>
         

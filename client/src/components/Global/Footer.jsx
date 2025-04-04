@@ -43,15 +43,19 @@ const Footer = () => {
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
-            <h2 className="font-semibold uppercase opacity-80">Top Universities</h2>
+            <h2 className="font-semibold uppercase opacity-80">Top Universities Online</h2>
             <ul className="font-medium">
-              {/* <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/academic-catalog">Indian Institute Of Management (IIM) Kozhikode</NavLink></li> */}
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/1">Amity University</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/8">NMIMS</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/">Manipal (MJU Online)</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/">DYPATIL</NavLink></li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
-            <h2 className="font-semibold uppercase opacity-80">Top Courses</h2>
+            <h2 className="font-semibold uppercase opacity-80">Top Courses Online</h2>
             <ul className="font-medium">
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/course-catalog">PG Courses</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/course-catalog">PG Courses</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/course-catalog">UG Courses</NavLink></li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">

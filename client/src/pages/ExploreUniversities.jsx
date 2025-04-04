@@ -4,7 +4,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 const ExploreUniversities = () => {
   return (
     <div>
-      <div className='h-auto bg-amber-50 md:pt-[20%] pt-[50%] lg:px-10 flex flex-col justify-center items-center rounded-4xl'>
+      <div className='h-auto bg-amber-50 md:pt-[20%] pt-[50%] lg:px-1 flex flex-col justify-center items-center rounded-4xl'>
         <div className='bg-white max-w-fit p-1 flex gap-4 rounded-4xl'>
           <NavLink 
             to={'/explore-universities/university-catalog'} 

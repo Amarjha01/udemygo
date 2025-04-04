@@ -4,7 +4,7 @@ import {universitiesCoursesData} from '../components/Global/UniversityCourseData
 
 const CourseCatalog = () => {
   return (
-    <div className=" my-5 grid grid-cols-1 lg:grid-cols-4 gap-4 justify-center ">
+    <div className=" my-5 grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center ">
       {universitiesCoursesData.map((uni) => (
        <Link to={`/university/${uni.id}`}>
         <div key={uni.id} className="bg-indigo-50 p-4 rounded-xl shadow-md w-80">

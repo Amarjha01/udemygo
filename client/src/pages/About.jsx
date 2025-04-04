@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <Hero />
-      <Founder />
+      {/* <Founder /> */}
       <Values />
     </>
   )

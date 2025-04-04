@@ -25,9 +25,9 @@ import {universityCatalogCardData} from '../components/Home/universityData.jsx';
 
 const UniversityCatalog = () => {
   return (
-    <div className="w-full py-6 px-3 pt-[5%] my-2 bg-[#bd1f2e] rounded-4xl">
+    <div className="w-[100%] py-6  pt-[5%] my-2 bg-[#bd1f2e] rounded-4xl">
       <h2 className="text-4xl font-bold mb-6 text-center text-white">Choose Your University</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 space-x-2 space-y-2 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3 mx-3 ">
         {universityCatalogCardData.map((uni) => (
           <Link
             to={`/university/${uni.id}`}
