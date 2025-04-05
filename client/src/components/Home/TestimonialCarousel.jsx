@@ -62,11 +62,11 @@ const TestimonialCarousel = () => {
 
   return (
    <div className="  ">
-    <div className=" lg:hidden w-full text-4xl md:text-6xl text-center uppercase font-bold">
+    <div className=" lg:hidden w-full text-4xl md:text-6xl text-center uppercase font-bold ">
     <p>Testimonials</p>
     </div>
      <div className="relative flex items-center justify-center h-[400px] bg-[#181e2e] rounded-4xl  ">
-        <div className=" absolute h-full w-full    ">
+        <div className=" absolute h-full w-full overflow-hidden rounded-4xl   ">
             
             <img src={gradientimg1} alt="" className="  absolute bottom-0 w-[100%] -translate-x-[50%] " />
             <img src={gradientimg1} alt="" className="  absolute rotate-180 top-[99.9%] w-[100%] -translate-x-[50%] " />

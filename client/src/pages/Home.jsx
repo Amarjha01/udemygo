@@ -4,6 +4,8 @@ import Question from "../components/Home/Question";
 import HeroSection from "../components/Home/HeroSection";
 import Process from "../components/Home/Process";
 import WhyChoose from "../components/Home/WhyChoose";
+import CareerBoost from "../components/Home/CareerBoost";
+import WhatSetsUsApart from "../components/Home/WhatSetsUsApart";
 
 const Home = () => {
   return (
@@ -14,10 +16,13 @@ const Home = () => {
         <HeroSection />
       </div>
       <Process />
-      <WhyChoose />
       <UniversityCardList />
+      <WhyChoose />
+    
 
     
+<CareerBoost />
+<WhatSetsUsApart />
 
       {/* Carousel Testimonial */}
       <section>

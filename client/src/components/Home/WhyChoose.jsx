@@ -9,7 +9,7 @@ import {
 
 const WhyChoose = () => {
   return (
-    <div className="flex justify-center items-center min-h-fit bg-gradient-to-b from-gray-900 to-gray-800 p-8 rounded-4xl">
+    <div className="flex justify-center items-center min-h-fit bg-gradient-to-b from-gray-900 to-gray-800 p-8 rounded-4xl mt-auto">
       <div className="bg-opacity-50 rounded-2xl p-10 w-full max-w-3xl bg-[#12122b] text-white shadow-lg">
         <div className="grid grid-cols-2 gap-6 text-center relative">
           {/* Personal Mentorship */}

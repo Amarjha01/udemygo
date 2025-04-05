@@ -20,6 +20,7 @@ function App() {
     <Social />
     <PopUpContact />
     <ScrollToTop />
+    
      <Outlet />
      <Question />
      <Footer />

@@ -15,7 +15,7 @@ const PopUpContact = () => {
 
   useEffect(() => {
     if (close) {
-      const timer = setTimeout(() => setClose(false), 10000); // Reopen after 10 sec
+      const timer = setTimeout(() => setClose(false), 20000); // Reopen after 10 sec
       return () => clearTimeout(timer); // Cleanup timer
     }
   }, [close]);
