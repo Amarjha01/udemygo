@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import {
   FaUser,
@@ -11,15 +11,17 @@ import { IoSend } from "react-icons/io5";
 
 const PopUpContact = () => {
   const [close, setClose] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const {
-    register,
-    handleSubmit,
-    watch,
-    formState: { errors },
-  } = useForm();
+  useEffect(() => {
+    if (close) {
+      const timer = setTimeout(() => setClose(false), 10000); // Reopen after 10 sec
+      return () => clearTimeout(timer); // Cleanup timer
+    }
+  }, [close]);
 
-  // Google Form Action URL and Entry Field IDs
+  const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
+
   const FORM_ACTION_URL =
     "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXU7QU0sS5xarAk5apgoY72aqmTq_StG0TeQ0yNL6CtH5rJg/formResponse";
 
@@ -30,6 +32,8 @@ const PopUpContact = () => {
   const ENTRY_COURSE = "entry.1641369073";
 
   const onSubmit = async (data) => {
+    setIsSubmitting(true);
+
     const formData = new FormData();
     formData.append(ENTRY_NAME, data.fullName);
     formData.append(ENTRY_EMAIL, data.email);
@@ -38,24 +42,20 @@ const PopUpContact = () => {
     formData.append(ENTRY_COURSE, data.course);
 
     try {
-      await fetch(FORM_ACTION_URL, {
-        method: "POST",
-        body: formData,
-        mode: "no-cors", // Required for Google Forms
-      });
+      await fetch(FORM_ACTION_URL, { method: "POST", body: formData, mode: "no-cors" });
       alert("Form submitted successfully!");
+      reset();
     } catch (error) {
       console.error("Form submission error:", error);
       alert("There was an error submitting the form.");
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
-  const handleClose = () => {
-    setClose(true);
-  };
+  const handleClose = () => setClose(true);
 
   const selectedDegree = watch("degree");
-
   const ugCourses = ["B.COM", "BCA", "BBA", "BA"];
   const pgCourses = ["MBA", "MCA", "MA"];
 
@@ -70,10 +70,10 @@ const PopUpContact = () => {
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           {/* Full Name */}
           <div className="relative">
-            <FaUser className="absolute left-3 top-4.5 text-gray-500" />
+            <FaUser className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
             <input
               {...register("fullName", { required: "Full Name is required" })}
-              className="w-full p-2 pl-10 border border-gray-300 rounded-md mt-1 bg-white"
+              className="w-full p-2 pl-10 border border-gray-300 rounded-md bg-white"
               placeholder="Full Name"
             />
             {errors.fullName && <p className="text-red-500 text-sm">{errors.fullName.message}</p>}
@@ -81,13 +81,13 @@ const PopUpContact = () => {
 
           {/* Phone */}
           <div className="relative">
-            <FaPhoneAlt className="absolute left-3 top-4.5 text-gray-500" />
+            <FaPhoneAlt className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
             <input
               {...register("phone", {
                 required: "Phone number is required",
                 pattern: { value: /^[0-9]{10}$/, message: "Enter a valid 10-digit phone number" },
               })}
-              className="w-full p-2 pl-10 border border-gray-300 rounded-md mt-1 bg-white"
+              className="w-full p-2 pl-10 border border-gray-300 rounded-md bg-white"
               placeholder="Phone Number"
             />
             {errors.phone && <p className="text-red-500 text-sm">{errors.phone.message}</p>}
@@ -95,56 +95,74 @@ const PopUpContact = () => {
 
           {/* Email */}
           <div className="relative">
-            <FaEnvelope className="absolute left-3 top-4.5 text-gray-500" />
+            <FaEnvelope className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
             <input
               {...register("email", {
                 required: "Email is required",
                 pattern: { value: /^\S+@\S+\.\S+$/, message: "Enter a valid email" },
               })}
-              className="w-full p-2 pl-10 border border-gray-300 rounded-md mt-1 bg-white"
+              className="w-full p-2 pl-10 border border-gray-300 rounded-md bg-white"
               placeholder="Email Address"
             />
             {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
           </div>
 
           {/* Degree Dropdown */}
-          <div className="relative">
-            <FaGraduationCap className="absolute left-3 top-4.5 text-gray-500" />
+          <div className="relative flex items-center">
+            <FaGraduationCap className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
             <select
               {...register("degree", { required: "Please select a degree" })}
-              className="w-full p-2 pl-10 border border-gray-300 rounded-md mt-1 bg-white"
+              className="w-full p-2 pl-10 border border-gray-300 rounded-md bg-white appearance-none"
             >
               <option value="">Select Degree</option>
               <option value="UG">Undergraduate (UG)</option>
               <option value="PG">Postgraduate (PG)</option>
             </select>
-            {errors.degree && <p className="text-red-500 text-sm">{errors.degree.message}</p>}
           </div>
+          {errors.degree && <p className="text-red-500 text-sm">{errors.degree.message}</p>}
 
-          {/* Course Dropdown - appears instantly when degree is selected */}
+          {/* Course Dropdown */}
           {selectedDegree && (
-            <div className="relative">
-              <FaUserGraduate className="absolute left-3 top-4.5 text-gray-500" />
+            <div className="relative flex items-center">
+              <FaUserGraduate className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500" />
               <select
                 {...register("course", { required: "Please select a course" })}
-                className="w-full p-2 pl-10 border border-gray-300 rounded-md mt-1 bg-white"
+                className="w-full p-2 pl-10 border border-gray-300 rounded-md bg-white appearance-none"
               >
                 <option value="">Select Course</option>
                 {(selectedDegree === "UG" ? ugCourses : pgCourses).map((course, idx) => (
                   <option key={idx} value={course}>{course}</option>
                 ))}
               </select>
-              {errors.course && <p className="text-red-500 text-sm">{errors.course.message}</p>}
             </div>
           )}
+          {errors.course && <p className="text-red-500 text-sm">{errors.course.message}</p>}
 
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-[#bd1e2d] to-[#faa318] text-white p-2 rounded flex items-center justify-center gap-2 transition"
+            disabled={isSubmitting}
+            className={`w-full p-2 rounded flex items-center justify-center gap-2 transition ${
+              isSubmitting
+                ? "bg-gray-400 cursor-not-allowed"
+                : "bg-gradient-to-r from-[#bd1e2d] to-[#faa318] text-white"
+            }`}
           >
-            <IoSend /> Submit
+            {isSubmitting ? (
+              <>
+                <svg className="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 100 16v-4l-3 3 3 3v-4a8 8 0 01-8-8z"></path>
+                </svg>
+                Submitting...
+              </>
+            ) : (
+              <>
+                <IoSend /> Submit
+              </>
+            )}
           </button>
+
         </form>
       </div>
     </div>

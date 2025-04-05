@@ -5,13 +5,13 @@ const About = () => {
   return (
     <div className='pt-10 flex flex-col px-4'>
 
-      {/* We're hiring button */}
+      {/* Grow With Us! Connect Today. */}
       <div className="ml-2 pt-40 space-y-4 flex items-start gap-2">
         <a
           href="/contact"
           className="flex items-center justify-center border border-black py-2 px-6 rounded-full hover:bg-gray-900 hover:text-white group transition-all"
         >
-          <p className="font-medium text-sm lg:text-xl">We're hiring! Get in touch.</p>
+          <p className="font-medium text-sm lg:text-xl">Grow With Us! Connect Today.</p>
           <span className='ml-4 text-3xl lg:text-5xl'>
             <TbCircleArrowUpRight />
           </span>

@@ -47,8 +47,8 @@ const Footer = () => {
             <ul className="font-medium">
               <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/1">Amity University</NavLink></li>
               <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/8">NMIMS</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/">Manipal (MJU Online)</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/">DYPATIL</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/20">Manipal (MJU Online)</NavLink></li>
+              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/19">DYPATIL</NavLink></li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
           </div>
           <div className=' w-full flex justify-center'>
-            <p>© Copyright udemygo.com. All rights reserved designed by ww.febtech.in</p>
+            <p>© Copyright udemygo.com. All rights reserved designed by <a href="www.febtech.in" className=' text-blue-400'>www.febtech.in</a> </p>
           </div>
         </div>
       </div>
