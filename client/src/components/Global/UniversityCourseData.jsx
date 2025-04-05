@@ -231,3 +231,7 @@ export const universitiesCoursesData = [
     logo: " https://www.yugedu.com/media/654/mizoram-university-online-logo.png"
   }
 ];
+
+      
+      
+  ];

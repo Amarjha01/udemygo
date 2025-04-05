@@ -27,9 +27,7 @@ const About = () => {
             <span className='text-amber-600 inline'>Marketplace</span>{' '}
             For Learning And Instruction
           </h2>
-          <p className='mt-10 font-bold text-lg md:text-xl'>
-            Borem ipsum dolor sit amet, consectetur adipiscing eliawe ellus luctus nec ullamcorper mattisBorem
-          </p>
+          
           <p className='mt-8 text-base md:text-lg'>
             At UdemyGo, we are dedicated to transforming your educational aspirations into reality by connecting you with top-tier online degree programs from renowned universities worldwide.
           </p>
@@ -39,19 +37,31 @@ const About = () => {
         </div>
 
         {/* Right Section - Image Gallery */}
-        <div className='ml-0 mt-6 lg:ml-10 h-[600px] lg:mt-0 flex w-full lg:w-1/3 flex-col sm:flex-row  items-center gap-4'>
-          <div className=' h-full w-[50%] object-cover  rounded-3xl overflow-hidden'>
-            <img src="src/assets/photo1.jpg" alt="photo" className=' h-full w-full object-cover rounded-3xl' />
+        <div className=" z-20  md:h-[600px] md:w-[50%] w-[100%] h-[400px]  flex md:p-5 p-2 gap-3 ">
+        <div className="overflow-hidden rounded-2xl h-full md:h-[85%] ">
+          <img
+            src="https://eduverticals.com/_next/image?url=https%3A%2F%2Fpub-cadcc242bdb44ad0a740f236913e5827.r2.dev%2Fpublic%2Fassets%2Fimages%2Fhero-imgs%2Fhome%2F1.webp&w=1920&q=75"
+            alt=""
+            className=" h-full object-cover rounded-2xl hover:scale-120 transition duration-200 ease-in"
+          />
+        </div>
+        <div className="w-[50%] min-h-[full flex flex-col gap-3">
+          <div className=" w-[100%] overflow-hidden  rounded-2xl">
+            <img
+              src="https://eduverticals.com/_next/image?url=https%3A%2F%2Fpub-cadcc242bdb44ad0a740f236913e5827.r2.dev%2Fpublic%2Fassets%2Fimages%2Fhero-imgs%2Fhome%2F2.webp&w=1920&q=75"
+              alt=""
+              className=" h-full object-cover w-[100%] rounded-2xl hover:scale-120 transition duration-200 ease-in"
+            />
           </div>
-          <div className='flex h-full w-[50%]  flex-col gap-4 '>
-            <div className='h-[50%]  rounded-3xl overflow-hidden'>
-              <img src="src/assets/photo2.jpg" alt="photo" className='rounded-3xl' />
-            </div>
-            <div className=' h-[50%]  bg-amber-50 rounded-3xl overflow-hidden'>
-              <img src="src/assets/photo3.jpg" alt="photo" className=' rounded-3xl' />
-            </div>
+          <div className=" w-[100%] overflow-hidden rounded-2xl  ">
+            <img
+              src="https://eduverticals.com/_next/image?url=https%3A%2F%2Fpub-cadcc242bdb44ad0a740f236913e5827.r2.dev%2Fpublic%2Fassets%2Fimages%2Fhero-imgs%2Fhome%2F3.webp&w=1920&q=75"
+              alt=""
+              className=" h-full object-cover w-[100%] rounded-2xl hover:scale-120 transition duration-200 ease-in"
+            />
           </div>
         </div>
+      </div>
       </div>
 
       {/* Life @ Company Section */}

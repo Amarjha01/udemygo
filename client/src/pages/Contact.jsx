@@ -20,12 +20,12 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const FORM_ACTION_URL =
-    "https://docs.google.com/forms/u/0/d/e/1FAIpQLSclIIQ_RIu0j6PF2aPE67Y-FdJYIloyae39kL_uHDPUr1_T9g/formResponse";
+    "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeeRwPXF24ldI4Iha4EzYZnM9SR7zv5_MfTqarxXiuc7FGVKg/formResponse";
   
-  const ENTRY_NAME = "entry.117510263";
-  const ENTRY_EMAIL = "entry.901042947";
-  const ENTRY_PHONE = "entry.1127502144";
-  const ENTRY_MESSAGE = "entry.647100082";
+  const ENTRY_NAME = "entry.555180317";
+  const ENTRY_EMAIL = "entry.426706447";
+  const ENTRY_PHONE = "entry.41285101";
+  const ENTRY_MESSAGE = "entry.662598996";
   
   // Function to handle form submission
   const onSubmit = async (data) => {
@@ -118,13 +118,15 @@ const Contact = () => {
                 </span>
               )}
             </div>
-            <button
+          <div>
+              <button
               type="submit"
               className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#bd1e2d] to-[#faa318] text-white py-3 px-6 rounded-md cursor-pointer hover:bg-blue-700"
               disabled={isSubmitting}
             >
               <IoSend /> Send Message
             </button>
+          </div>
           </form>
         </div>
         

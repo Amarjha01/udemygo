@@ -3,6 +3,7 @@ import TestimonialCarousel from "../components/Home/TestimonialCarousel";
 import Question from "../components/Home/Question";
 import HeroSection from "../components/Home/HeroSection";
 import Process from "../components/Home/Process";
+import WhyChoose from "../components/Home/WhyChoose";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <HeroSection />
       </div>
       <Process />
+      <WhyChoose />
       <UniversityCardList />
 
     

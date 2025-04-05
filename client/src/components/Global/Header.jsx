@@ -85,7 +85,9 @@ const Header = () => {
 
         <div className="relative cursor-pointer flex items-center">
           <div className="custome-bg"></div>
-          <button className="bg-black text-white text-sm rounded-full px-4 py-3 hover:bg-gray-800 transition-all">WhatsApp Us</button>
+          <a href="https://api.whatsapp.com/send?phone=918104550586&text=hello%20iam%20intrested">
+          <button className="bg-black text-white text-sm rounded-full px-4 py-3 hover:bg-gray-800 transition-all cursor-pointer">WhatsApp Us</button>
+          </a>
           <div className="lg:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="text-4xl py-3">{isOpen ? <X size={30} /> : <IoReorderThreeOutline />}</button>
           </div>

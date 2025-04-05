@@ -6,6 +6,7 @@ import Question from './components/Home/Question.jsx';
 import Social from './components/Global/Social.jsx';
 import PopUpContact from './components/Global/PopUpContact.jsx';
 import { LuMessagesSquare } from "react-icons/lu";
+import ScrollToTop from './components/Global/ScrollToTop.jsx';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Header />
     <Social />
     <PopUpContact />
+    <ScrollToTop />
      <Outlet />
      <Question />
      <Footer />

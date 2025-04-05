@@ -37,9 +37,10 @@ const Question = () => {
             <div className='w-1/2 flex flex-col gap-4'>
               <h3 className='text-xl md:text-2xl font-bold'>Meet Our Mentors</h3>
               <p className='text-sm md:text-base text-gray-300'>We have a team of over 12 experienced mentors with over 26+ years of collective experience available to guide you at a moment's notice.</p>
-              <button className='w-full py-2 bg-green-600 hover:bg-green-700 transition rounded-lg shadow-md'>
-                WhatsApp Us
-              </button>
+             <a href="https://api.whatsapp.com/send?phone=918104550586&text=hello%20iam%20intrested"> 
+              <button className='w-full py-2 bg-green-600 hover:bg-green-700 transition rounded-lg shadow-md cursor-pointer'>
+             WhatsApp Us
+           </button></a>
             </div>
           </div>
         </div>
