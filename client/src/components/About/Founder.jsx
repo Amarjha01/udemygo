@@ -1,51 +1,58 @@
-import React from 'react';
+import React from "react";
 
-function Founder() {
+const VisionarySection = () => {
   return (
-    <section className="py-4 px-4">
-      <div className="mx-auto max-w-screen-2xl">
-        <div className="flex flex-col xl:flex-row items-stretch gap-6">
-
-          {/* First Card: Meet the Visionary */}
-          <div className=" bg-gradient-to-r from-white to-[#DDDEF8] rounded-2xl lg:rounded-3xl relative overflow-hidden flex flex-col">
-            
-            <div className="flex flex-wrap gap-4 relative h-full">
-              <div className="basis-full lg:aspect-auto lg:basis-[50%] xl:basis-[36%] grow-0 rounded-2xl lg:rounded-3xl">
-                <img
-src="src/assets/photo1.jpg"                  alt=""
-                  className="h-full w-full object-cover rounded-2xl lg:rounded-3xl"
-                />
-              </div>
-              <div className="basis-1 grow shrink-0\\ p-5 mb-26 space-y-  overflow-hidden">
-                <h4 className="text-lg font-semibold text-gray-800">Meet The Visionary</h4>
-                <h2 className="text-3xl font-bold text-gray-900 mt-2">Mr. Shahjahan</h2>
-                <p className="text-sm text-gray-600 mt-4 leading-relaxed">
-                  With 14+ years of shaping the education landscape, Shahjahan blends innovation and strategy to drive results. As Co-Founder, he leads <strong>EduVerticals</strong> with a focus on impactful initiatives, personalized client experiences, and business growth.
-                </p>
-                <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                  His expertise spans corporate affairs, media, and communication strategies, all while inspiring teams to excel.
-                </p>
-              </div>
-            </div>
+    <section className="bg-gradient-to-br from-[#ede9fe] to-[#e0e7ff] py-12 px-4 md:px-16 rounded-4xl">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8 ">
+        {/* Left: Image + Visionary Info */}
+        <div className="flex flex-col md:flex-row bg-white/70 rounded-3xl shadow-lg overflow-hidden w-full md:w-2/3">
+          <div className="md:w-1/3 bg-black flex justify-center items-center">
+            <img
+              src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13873773/stevejobs.1419962519.png?quality=90&strip=all&crop=0,13.457556935818,100,73.084886128364"
+              alt="Mr. Shahjahan"
+              className="w-full h-full object-cover grayscale"
+            />
           </div>
-
-          {/* Second Card: Empowering Through Education */}
-          <div className="bg-[#181E2E] text-white w-full rounded-2xl relative overflow-hidden flex flex-col">
-            
-            <div className="px-6 py-8 relative flex-grow items-center">
-              <h3 className="text-lg font-semibold">Empowering Through Education</h3>
-              <div className="items-center">
-                <p className="text-sm mt-4 leading-relaxed">
-                  EduVerticals is <strong>redefining</strong> corporate education by bridging the gap between conventional learning and today's fast-evolving business landscape.
-                </p>
-              </div>
-            </div>
+          <div className="p-6 md:p-8 md:w-2/3 bg-gradient-to-r from-[#ede9fe] to-[#f3f4f6]">
+            <p className="text-sm font-semibold text-gray-500 mb-1">Meet The Visionary</p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Mr. Shahjahan</h2>
+            <p className="text-gray-700 mb-4">
+              With 14+ years of shaping the education landscape, Shahjahan blends innovation and
+              strategy to drive results. As Co-Founder, he leads <strong>EduVerticals</strong> with a
+              focus on impactful initiatives, personalized client experiences, and business growth.
+            </p>
+            <p className="text-gray-700 mb-4">
+              His expertise spans corporate affairs, media, and communication strategies, all while
+              inspiring teams to excel.
+            </p>
+            <p className="text-gray-700">
+              Known for his visionary leadership, he is passionate about creating transformative
+              opportunities for students and businesses alike, making him a game-changer in the
+              education field.
+            </p>
           </div>
+        </div>
 
+        {/* Right: Empowering Box */}
+        <div className="w-full md:w-1/3 bg-gradient-to-br from-[#1e293b] to-[#0f172a] text-white rounded-2xl p-6 md:p-8 shadow-xl">
+          <h3 className="text-lg font-semibold mb-4">Empowering Through Education</h3>
+          <p className="mb-4">
+            <strong>EduVerticals</strong> is <span className="text-indigo-400">redefining</span> corporate education by bridging the gap between conventional learning and today&apos;s fast-evolving business landscape.
+          </p>
+          <p className="mb-4">
+            We specialize in tailored online MBA programs that empower professionals to excel and organizations to thrive.
+          </p>
+          <p className="mb-4">
+            With cutting-edge courses in Digital Marketing, AI, Finance, and more, we deliver results-driven learning solutions designed to sharpen leadership skills and boost business growth.
+          </p>
+          <p className="mb-4">
+            Our approach ensures accessibility, flexibility, and measurable impact for learners worldwide.
+          </p>
+          <p className="font-semibold text-indigo-300">Empower. Innovate. Lead with EduVerticals.</p>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Founder;
+export default VisionarySection;
