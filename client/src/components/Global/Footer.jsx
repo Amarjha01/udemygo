@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "../../assets/UDEMYGO-LOGO.webp";
 
 const Footer = () => {
   return (
@@ -14,12 +15,13 @@ const Footer = () => {
                 width="100"
                 height="50"
                 className="object-contain w-40"
-                src="UDEMYGO-LOGO.webp"
+                src={Logo }
               />
             </div>
             <p>
-              We're more than just an educational platform; we're a catalyst for change. Our mission is to empower
-              students through comprehensive support, mentorship, and innovative learning resources.
+              We're more than just an educational platform; we're a catalyst for
+              change. Our mission is to empower students through comprehensive
+              support, mentorship, and innovative learning resources.
             </p>
             <div>
               <a
@@ -35,39 +37,177 @@ const Footer = () => {
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
             <h2 className="font-semibold uppercase opacity-80">Company</h2>
             <ul className="font-medium">
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all z-10" to="/about">About us</NavLink></li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all z-10"
+                  to="/about"
+                >
+                  About us
+                </NavLink>
+              </li>
 
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/university-catalog">University Catalog</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/course-catalog">Course Catalog</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/contact">Contact us</NavLink></li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/explore-universities/university-catalog"
+                >
+                  University Catalog
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/explore-universities/course-catalog"
+                >
+                  Course Catalog
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/contact"
+                >
+                  Contact us
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
-            <h2 className="font-semibold uppercase opacity-80">Top Universities Online</h2>
+            <h2 className="font-semibold uppercase opacity-80">
+              Top Universities Online
+            </h2>
             <ul className="font-medium">
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/1">Amity University</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/8">NMIMS</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/20">Manipal (MJU Online)</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/university/19">DYPATIL</NavLink></li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/1"
+                >
+                  Amity University
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/8"
+                >
+                  NMIMS
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/20"
+                >
+                  Manipal (MJU Online)
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/5"
+                >
+                  UTTRANCHAL UNIVERSITY
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/12"
+                >
+                  Sharda University
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/3"
+                >
+                  L.P.U.
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/13"
+                >
+                  Manipal Sikkim
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/7"
+                >
+                  Chandigarh University
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/14"
+                >
+                  UPES
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/university/11"
+                >
+                  Shoolini University
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
-            <h2 className="font-semibold uppercase opacity-80">Top Courses Online</h2>
+            <h2 className="font-semibold uppercase opacity-80">
+              Top Courses Online
+            </h2>
             <ul className="font-medium">
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/course-catalog">PG Courses</NavLink></li>
-              <li><NavLink className="text-sm py-2 block capitalize hover:translate-x-1 transition-all" to="/explore-universities/course-catalog">UG Courses</NavLink></li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/explore-universities/course-catalog"
+                >
+                  PG Courses
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/explore-universities/course-catalog"
+                >
+                  UG Courses
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
+                  to="/explore-universities/course-catalog?filter=PG"
+                >
+                  Executive MBA
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className="basis-[220px] md:basis-[360px] lg:basis-[220px] flex-grow shrink-0 space-y-3">
             <h2 className="font-semibold uppercase opacity-80">Get in touch</h2>
             <div className="flex flex-col items-start gap-2">
-              <a href="mailto:eduomnipvtltd@gmail.com" className="flex items-center gap-2 hover:translate-x-1 transition-all">
-                eduomnipvtltd@gmail.com
+              <a
+                href="mailto:info@udemygo.com"
+                className="flex items-center gap-2 hover:translate-x-1 transition-all"
+              >
+                info@udemygo.com
               </a>
             </div>
           </div>
-          <div className=' w-full flex justify-center'>
-            <p>© Copyright udemygo.com. All rights reserved designed by <a href="www.febtech.in" className=' text-blue-400'>www.febtech.in</a> </p>
+          <div className=" w-full flex justify-center">
+            <p>
+              © Copyright udemygo.com. All rights reserved designed by{" "}
+              <a href="www.febtech.in" className=" text-blue-400">
+                www.febtech.in
+              </a>{" "}
+            </p>
           </div>
         </div>
       </div>

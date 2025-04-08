@@ -8,7 +8,7 @@ const VisionarySection = () => {
         <div className="flex flex-col md:flex-row bg-white/70 rounded-3xl shadow-lg overflow-hidden w-full md:w-2/3">
           <div className="md:w-1/3 bg-black flex justify-center items-center">
             <img
-              src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/13873773/stevejobs.1419962519.png?quality=90&strip=all&crop=0,13.457556935818,100,73.084886128364"
+              src="/founder.jpeg"
               alt="Mr. Shahjahan"
               className="w-full h-full object-cover grayscale"
             />

@@ -1,13 +1,23 @@
-import { Link } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
 import { universitiesCoursesData } from '../components/Global/UniversityCourseData.jsx';
 import { useState, useEffect } from "react";
 
 const CourseCatalog = () => {
+  const [searchParams] = useSearchParams();
+
   // Flatten the nested array of university courses
   const allCourses = universitiesCoursesData.flat();
 
   const [courseData, setCourseData] = useState(allCourses);
   const [selectedFilter, setSelectedFilter] = useState("All");
+
+  // Apply filter based on query string on first load
+  useEffect(() => {
+    const queryFilter = searchParams.get("filter");
+    if (queryFilter) {
+      handleFilter(queryFilter);
+    }
+  }, [searchParams]);
 
   // Filter logic
   const handleFilter = (type) => {
@@ -49,10 +59,10 @@ const CourseCatalog = () => {
       </div>
 
       {/* Courses Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 justify-center w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 justify-center w-full mr-3">
         {courseData.map((uni, index) => (
           <Link key={`${uni.name}-${index}`} to={`/university/${uni.id}`}>
-            <div className="bg-indigo-50 p-4 rounded-xl shadow-md w-80">
+            <div className="bg-indigo-50 p-4 m-5 rounded-xl shadow-md w-80">
               <div className="flex items-center space-x-3">
                 <img src={uni.logo} alt={`${uni.name} Logo`} className="h-7" />
                 {uni.emiPlan && (

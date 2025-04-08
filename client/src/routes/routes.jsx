@@ -9,6 +9,7 @@ import UniversityCatalog from '../pages/UniversityCatalog';
 import CourseCatalog from '../pages/CourseCatalog';
 import University from '../pages/University';
 import ExploreUniversities from '../pages/ExploreUniversities';
+import Placement from '../pages/Placement';
 
 const routes = createBrowserRouter(
     [
@@ -35,6 +36,10 @@ const routes = createBrowserRouter(
                 {
                     path:'contact',
                     element: <Contact />
+                },
+                {
+                    path:'placement',
+                    element: <Placement />
                 },
                {
                 path: '/explore-universities',

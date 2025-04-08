@@ -7,26 +7,31 @@ const CareerBoost = () => {
       title: "PG Courses",
       subtitle: "After Graduation",
       detail: "80+ Courses • 50+ Universities • 1 - 2 Years",
+      filter: "PG",
     },
     {
       title: "Executive Education",
       subtitle: "Working Professionals & CXOs",
       detail: "20+ Courses • 50+ Universities • 3 - 24 Months",
+      filter: "Executive",
     },
     {
       title: "UG Courses",
       subtitle: "After 12th",
       detail: "80+ Courses • 60+ Universities • 3 Years",
+      filter: "UG",
     },
     {
       title: "Advanced Diploma",
       subtitle: "",
       detail: "40+ Courses • 30+ Universities • 1 - 2 Years",
+      filter: "Diploma",
     },
     {
       title: "Skilling & Certification",
       subtitle: "",
       detail: "30+ Courses • 10+ Universities • 3 - 36 Months",
+      filter: "Skill",
     },
   ];
 
@@ -48,26 +53,23 @@ const CareerBoost = () => {
         </div>
 
         {/* Cards */}
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {cards.map((card, index) => (
-        <Link to="/explore-universities/course-catalog">
-
-<div
+            <Link
               key={index}
-              className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all flex flex-col justify-between"
+              to={`/explore-universities/course-catalog?filter=${card.filter}`}
             >
-              <div className="flex justify-between items-start">
-                <h3 className="text-xl font-semibold text-gray-900">{card.title}</h3>
-                <span className="text-xl">↗</span>
+              <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all flex flex-col justify-between">
+                <div className="flex justify-between items-start">
+                  <h3 className="text-xl font-semibold text-gray-900">{card.title}</h3>
+                  <span className="text-xl">↗</span>
+                </div>
+                {card.subtitle && <p className="text-gray-600 mt-1">{card.subtitle}</p>}
+                <p className="text-sm text-gray-500 mt-4">{card.detail}</p>
               </div>
-              {card.subtitle && <p className="text-gray-600 mt-1">{card.subtitle}</p>}
-              <p className="text-sm text-gray-500 mt-4">{card.detail}</p>
-            </div>
-        </Link>
+            </Link>
           ))}
         </div>
-      
       </div>
     </div>
   );

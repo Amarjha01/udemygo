@@ -3,10 +3,11 @@ import { CheckCircle } from "lucide-react";
 
 const WhyEduVerticals = () => {
   const points = [
-    "Comprehensive educational consulting across all streams",
-    "Customized solutions for diverse corporate needs",
-    "Partnerships with leading institutions worldwide",
-    "Expertise in both online and traditional learning models",
+    "Enhanced learning experiences tailored to individual growth paths",
+		"Handpicked online MBA programs and career-focused certifications",
+		"Collaborations with top-tier institutions and domain experts",
+		"Learner-first design: flexible schedules, lifetime access, EMI options",
+		"Real people, real support: Our guidance doesn’t end after enrollment",
   ];
 
   return (
@@ -23,7 +24,7 @@ const WhyEduVerticals = () => {
 
         {/* Right Text */}
         <div className="md:w-1/2 w-full">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Why EduVerticals?</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">Why UDEMYGO ?</h2>
           <p className="text-gray-700 mb-6">
             We believe that if you can dream it, you can do it.
           </p>
