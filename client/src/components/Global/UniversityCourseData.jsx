@@ -37,7 +37,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png",
     },
@@ -47,7 +47,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png",
     },
@@ -57,7 +57,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png",
     },
@@ -67,7 +67,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png",
     },
@@ -111,7 +111,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kurukshetra_University_logo.png",
     },
@@ -121,7 +121,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kurukshetra_University_logo.png",
     },
@@ -131,7 +131,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kurukshetra_University_logo.png",
     },
@@ -141,11 +141,12 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kurukshetra_University_logo.png",
     },
   ],
+  
 
   // ID 3 - Lovely Professional University
   [
@@ -185,7 +186,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.jpg"
     },
@@ -195,7 +196,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.jpg"
     },
@@ -205,7 +206,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.jpg"
     },
@@ -215,7 +216,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.jpg"
     },
@@ -259,7 +260,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kW1QiwZI1mxMzldLk3AV3fhz6-Wmivebmw&s",
     },
@@ -269,7 +270,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kW1QiwZI1mxMzldLk3AV3fhz6-Wmivebmw&s",
     },
@@ -279,7 +280,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kW1QiwZI1mxMzldLk3AV3fhz6-Wmivebmw&s",
     },
@@ -289,7 +290,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5kW1QiwZI1mxMzldLk3AV3fhz6-Wmivebmw&s",
     },
@@ -333,7 +334,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
@@ -343,7 +344,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
@@ -353,7 +354,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
@@ -363,7 +364,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
@@ -407,7 +408,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/4/42/GLA_University_logo.png",
     },
@@ -417,7 +418,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/4/42/GLA_University_logo.png",
     },
@@ -427,7 +428,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/4/42/GLA_University_logo.png",
     },
@@ -437,11 +438,11 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/en/4/42/GLA_University_logo.png",
     },
-  ],
+  ] ,
 
   // ID 7 - Chandigarh University
   [
@@ -481,7 +482,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹2,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mx5Ca8jO1s4RjWBQKke3YPNGUsLU2KCrMA&s",
     },
@@ -491,7 +492,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹2,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mx5Ca8jO1s4RjWBQKke3YPNGUsLU2KCrMA&s",
     },
@@ -501,7 +502,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹2,22,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mx5Ca8jO1s4RjWBQKke3YPNGUsLU2KCrMA&s",
     },
@@ -511,7 +512,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹2,22,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mx5Ca8jO1s4RjWBQKke3YPNGUsLU2KCrMA&s",
     },
@@ -522,7 +523,7 @@ export const universitiesCoursesData = [
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "MBA", // masters
+      course: "MBA",
       degree: "Master Degree",
       fee: "₹2,80,000",
       duration: "2 Years",
@@ -532,7 +533,7 @@ export const universitiesCoursesData = [
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "MCA", // masters
+      course: "MCA",
       degree: "Master Degree",
       fee: "₹2,80,000",
       duration: "2 Years",
@@ -542,7 +543,7 @@ export const universitiesCoursesData = [
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "MA", // masters
+      course: "MA",
       degree: "Master Degree",
       fee: "₹2,80,000",
       duration: "2 Years",
@@ -552,43 +553,43 @@ export const universitiesCoursesData = [
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "BCA", // UG
+      course: "BCA",
       degree: "UG",
       fee: "₹2,50,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "BBA", // UG
+      course: "BBA",
       degree: "UG",
       fee: "₹2,50,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "BA", // UG
+      course: "BA",
       degree: "UG",
       fee: "₹2,50,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 8,
       name: "Narsee Monjee Institute of Management Studies",
-      course: "B.Com", // UG
+      course: "B.Com",
       degree: "UG",
       fee: "₹2,50,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
-    },
+    }
   ],
 
   // ID 9 - Amrita Vishwa Vidyapeetham
@@ -596,7 +597,7 @@ export const universitiesCoursesData = [
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "MBA", // masters
+      course: "MBA",
       degree: "Master Degree",
       fee: "₹2,20,000",
       duration: "2 Years",
@@ -606,7 +607,7 @@ export const universitiesCoursesData = [
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "MCA", // masters
+      course: "MCA",
       degree: "Master Degree",
       fee: "₹2,20,000",
       duration: "2 Years",
@@ -616,7 +617,7 @@ export const universitiesCoursesData = [
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "MA", // masters
+      course: "MA",
       degree: "Master Degree",
       fee: "₹2,20,000",
       duration: "2 Years",
@@ -626,43 +627,43 @@ export const universitiesCoursesData = [
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "BCA", // UG
+      course: "BCA",
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Amrita-vishwa-vidyapeetham-logo.svg/2560px-Amrita-vishwa-vidyapeetham-logo.svg.png",
     },
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "BBA", // UG
+      course: "BBA",
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Amrita-vishwa-vidyapeetham-logo.svg/2560px-Amrita-vishwa-vidyapeetham-logo.svg.png",
     },
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "BA", // UG
+      course: "BA",
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Amrita-vishwa-vidyapeetham-logo.svg/2560px-Amrita-vishwa-vidyapeetham-logo.svg.png",
     },
     {
       id: 9,
       name: "Amrita Vishwa Vidyapeetham",
-      course: "B.Com", // UG
+      course: "B.Com",
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Amrita-vishwa-vidyapeetham-logo.svg/2560px-Amrita-vishwa-vidyapeetham-logo.svg.png",
-    },
+    }
   ],
 
   // ID 10 - Parul University
@@ -670,7 +671,7 @@ export const universitiesCoursesData = [
     {
       id: 10,
       name: "Parul University",
-      course: "MBA", // masters
+      course: "MBA",
       degree: "Master Degree",
       fee: "₹1,00,000",
       duration: "2 Years",
@@ -680,7 +681,7 @@ export const universitiesCoursesData = [
     {
       id: 10,
       name: "Parul University",
-      course: "MCA", // masters
+      course: "MCA",
       degree: "Master Degree",
       fee: "₹1,00,000",
       duration: "2 Years",
@@ -690,7 +691,7 @@ export const universitiesCoursesData = [
     {
       id: 10,
       name: "Parul University",
-      course: "MA", // masters
+      course: "MA",
       degree: "Master Degree",
       fee: "₹1,00,000",
       duration: "2 Years",
@@ -700,43 +701,43 @@ export const universitiesCoursesData = [
     {
       id: 10,
       name: "Parul University",
-      course: "BCA", // UG
+      course: "BCA",
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/35/4e/41/354e41b970004cac05cbe77bbc681ad8.jpg",
     },
     {
       id: 10,
       name: "Parul University",
-      course: "BBA", // UG
+      course: "BBA",
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/35/4e/41/354e41b970004cac05cbe77bbc681ad8.jpg",
     },
     {
       id: 10,
       name: "Parul University",
-      course: "BA", // UG
+      course: "BA",
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/35/4e/41/354e41b970004cac05cbe77bbc681ad8.jpg",
     },
     {
       id: 10,
       name: "Parul University",
-      course: "B.Com", // UG
+      course: "B.Com",
       degree: "UG",
       fee: "₹90,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://i.pinimg.com/736x/35/4e/41/354e41b970004cac05cbe77bbc681ad8.jpg",
-    },
+    }
   ],
 
   // ID 11 - Shoolini University
@@ -777,7 +778,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://online.shooliniuniversity.com/distance/assets/img/logo.png",
     },
@@ -787,7 +788,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://online.shooliniuniversity.com/distance/assets/img/logo.png",
     },
@@ -797,7 +798,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://online.shooliniuniversity.com/distance/assets/img/logo.png",
     },
@@ -807,7 +808,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,20,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://online.shooliniuniversity.com/distance/assets/img/logo.png",
     },
@@ -851,7 +852,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4Pd52Bzy8GLLUsBcY91yPN0VFzkERuN7-g&s",
     },
@@ -861,7 +862,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4Pd52Bzy8GLLUsBcY91yPN0VFzkERuN7-g&s",
     },
@@ -871,7 +872,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4Pd52Bzy8GLLUsBcY91yPN0VFzkERuN7-g&s",
     },
@@ -881,7 +882,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4Pd52Bzy8GLLUsBcY91yPN0VFzkERuN7-g&s",
     },
@@ -925,7 +926,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,30,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/comp/dehradun/w1/9999pd135.d135.110721154744.r1w1/catalogue/sikkim-manipal-university-toll-free-no-dehradun-gpo-dehradun-institutes-for-disaster-management-klht5.jpg"
     },
@@ -935,7 +936,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,30,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/comp/dehradun/w1/9999pd135.d135.110721154744.r1w1/catalogue/sikkim-manipal-university-toll-free-no-dehradun-gpo-dehradun-institutes-for-disaster-management-klht5.jpg"
     },
@@ -945,7 +946,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,30,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/comp/dehradun/w1/9999pd135.d135.110721154744.r1w1/catalogue/sikkim-manipal-university-toll-free-no-dehradun-gpo-dehradun-institutes-for-disaster-management-klht5.jpg"
     },
@@ -955,7 +956,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,30,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/comp/dehradun/w1/9999pd135.d135.110721154744.r1w1/catalogue/sikkim-manipal-university-toll-free-no-dehradun-gpo-dehradun-institutes-for-disaster-management-klht5.jpg"
     },
@@ -999,7 +1000,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
@@ -1009,7 +1010,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
@@ -1019,7 +1020,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
@@ -1029,13 +1030,13 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,80,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
   ],
 
-  // ID 15 - Vignan's University
+  // ID 15 - Vigna3's University
   [
     {
       id: 15,
@@ -1073,7 +1074,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹70,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/v2/comp/hyderabad/64/040p7005064/catalogue/vignan-institute-of-technology-and-science-kukatpally-hyderabad-engineering-colleges-pe113r.jpg",
     },
@@ -1083,7 +1084,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹70,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/v2/comp/hyderabad/64/040p7005064/catalogue/vignan-institute-of-technology-and-science-kukatpally-hyderabad-engineering-colleges-pe113r.jpg",
     },
@@ -1093,7 +1094,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹70,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/v2/comp/hyderabad/64/040p7005064/catalogue/vignan-institute-of-technology-and-science-kukatpally-hyderabad-engineering-colleges-pe113r.jpg",
     },
@@ -1103,7 +1104,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹70,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://content.jdmagicbox.com/v2/comp/hyderabad/64/040p7005064/catalogue/vignan-institute-of-technology-and-science-kukatpally-hyderabad-engineering-colleges-pe113r.jpg",
     },
@@ -1147,7 +1148,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹85,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
@@ -1157,7 +1158,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹85,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
@@ -1167,7 +1168,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹85,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
@@ -1177,7 +1178,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹85,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
@@ -1221,7 +1222,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskJ0c3dzaabVW_PWcxTUViMR2PQmpHOKfJg&s",
     },
@@ -1231,7 +1232,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskJ0c3dzaabVW_PWcxTUViMR2PQmpHOKfJg&s",
     },
@@ -1241,7 +1242,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskJ0c3dzaabVW_PWcxTUViMR2PQmpHOKfJg&s",
     },
@@ -1251,7 +1252,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskJ0c3dzaabVW_PWcxTUViMR2PQmpHOKfJg&s",
     },
@@ -1369,7 +1370,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,25,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
@@ -1379,7 +1380,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,25,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
@@ -1389,7 +1390,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,25,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
@@ -1399,7 +1400,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,25,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
@@ -1443,7 +1444,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFphxje5ISCTbvjGYFf7rCUIElnSbP9ovxpg&s",
     },
@@ -1453,7 +1454,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFphxje5ISCTbvjGYFf7rCUIElnSbP9ovxpg&s",
     },
@@ -1463,7 +1464,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFphxje5ISCTbvjGYFf7rCUIElnSbP9ovxpg&s",
     },
@@ -1473,7 +1474,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹2,00,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFphxje5ISCTbvjGYFf7rCUIElnSbP9ovxpg&s",
     },
@@ -1517,7 +1518,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,40,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._D._Y._Patil_Medical_College%2C_Hospital_%26_Research_Centre_logo.jpg",
     },
@@ -1527,7 +1528,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,40,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._D._Y._Patil_Medical_College%2C_Hospital_%26_Research_Centre_logo.jpg",
     },
@@ -1537,7 +1538,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,40,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._D._Y._Patil_Medical_College%2C_Hospital_%26_Research_Centre_logo.jpg",
     },
@@ -1547,7 +1548,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,40,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._D._Y._Patil_Medical_College%2C_Hospital_%26_Research_Centre_logo.jpg",
     },
@@ -1591,7 +1592,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹1,10,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://jamiahamdard.edu/images/top-logo.png",
     },
@@ -1601,7 +1602,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹1,10,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://jamiahamdard.edu/images/top-logo.png",
     },
@@ -1611,7 +1612,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹1,10,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://jamiahamdard.edu/images/top-logo.png",
     },
@@ -1621,7 +1622,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹1,10,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: true,
       logo: "https://jamiahamdard.edu/images/top-logo.png",
     },
@@ -1665,7 +1666,7 @@ export const universitiesCoursesData = [
       course: "BCA", // UG
       degree: "UG",
       fee: "₹60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://www.yugedu.com/media/654/mizoram-university-online-logo.png",
     },
@@ -1675,7 +1676,7 @@ export const universitiesCoursesData = [
       course: "BBA", // UG
       degree: "UG",
       fee: "₹60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://www.yugedu.com/media/654/mizoram-university-online-logo.png",
     },
@@ -1685,7 +1686,7 @@ export const universitiesCoursesData = [
       course: "BA", // UG
       degree: "UG",
       fee: "₹60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://www.yugedu.com/media/654/mizoram-university-online-logo.png",
     },
@@ -1695,7 +1696,7 @@ export const universitiesCoursesData = [
       course: "B.Com", // UG
       degree: "UG",
       fee: "₹60,000",
-      duration: "2 Years",
+      duration: "3 Years",
       emiPlan: false,
       logo: "https://www.yugedu.com/media/654/mizoram-university-online-logo.png",
     },

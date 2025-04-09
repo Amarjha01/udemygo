@@ -13,7 +13,7 @@ const Question = () => {
   const questions = [
     { q: 'What are the benefits of online degree programs?', a: 'Online degree programs offer flexibility, affordability, and accessibility, allowing you to study from anywhere while balancing work and personal commitments.' },
     { q: 'Are online degrees recognized by employers?', a: 'Yes! Many online programs are accredited and widely recognized by employers, especially when offered by reputable universities.' },
-    { q: 'How do I apply for an online degree?', a: 'You can apply by visiting the university’s official website, filling out the application form, and submitting the required documents.' },
+    { q: 'How do I apply for an online degree?', a: 'It’s easier than you think — apply through Udemygo. Explore top-rated MBA and degree programs from globally recognized universities.And you’re not alone — our expert advisors will guide you through every step, from choosing the right course to enrollment.Flexible. Affordable. Future-ready.Start your journey today at Udemygo — where success begins.' },
     { q: 'Can I pursue an online degree while working full-time?', a: 'Absolutely! Online courses are designed for working professionals, offering self-paced learning and flexible schedules.' },
     { q: 'What technology do I need for online learning?', a: 'You’ll need a computer/laptop, a stable internet connection, and basic software like a web browser and video conferencing tools.' },
     { q: 'How do I interact with professors and classmates?', a: 'Most programs provide discussion forums, live lectures, email support, and virtual meetings to engage with instructors and peers.' },

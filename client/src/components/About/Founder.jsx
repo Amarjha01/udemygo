@@ -6,7 +6,7 @@ const VisionarySection = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-8 ">
         {/* Left: Image + Visionary Info */}
         <div className="flex flex-col md:flex-row bg-white/70 rounded-3xl shadow-lg overflow-hidden w-full md:w-2/3">
-          <div className="md:w-1/3 bg-black flex justify-center items-center">
+          <div className="md:w-2/3 bg-black flex justify-center items-center">
             <img
               src="/founder.jpeg"
               alt="Mr. Shahjahan"
@@ -14,41 +14,68 @@ const VisionarySection = () => {
             />
           </div>
           <div className="p-6 md:p-8 md:w-2/3 bg-gradient-to-r from-[#ede9fe] to-[#f3f4f6]">
-            <p className="text-sm font-semibold text-gray-500 mb-1">Meet The Visionary</p>
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Mr. Shahjahan</h2>
-            <p className="text-gray-700 mb-4">
-              With 14+ years of shaping the education landscape, Shahjahan blends innovation and
-              strategy to drive results. As Co-Founder, he leads <strong>EduVerticals</strong> with a
-              focus on impactful initiatives, personalized client experiences, and business growth.
+            <p className="text-sm font-semibold text-gray-500 mb-1">
+              Meet The Founder And Co-Founder
             </p>
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+              Mr. Sachin Goswami And Mr. Rohit
+            </h2>
             <p className="text-gray-700 mb-4">
-              His expertise spans corporate affairs, media, and communication strategies, all while
-              inspiring teams to excel.
-            </p>
-            <p className="text-gray-700">
-              Known for his visionary leadership, he is passionate about creating transformative
-              opportunities for students and businesses alike, making him a game-changer in the
-              education field.
+              Sachin Goswami and Rohit are the founder and co-founder of
+              UdemyGo, trailblazers in the education sector. Driven by a shared
+              mission to democratize learning, they aim to make high-quality
+              education accessible to all. With a vision rooted in innovation,
+              impact, and inclusivity, they’ve built UdemyGo into a
+              next-generation platform that bridges the gap between academic
+              excellence and real-world skills. Their leadership has empowered
+              thousands of students and professionals through programs
+              co-designed with top universities and industry experts. With a
+              deep understanding of education technology and learner behavior,
+              they focus on scalable, personalized, and career-driven learning
+              experiences. As visionary strategists, they ensure every course,
+              program, and partnership at UdemyGo meets the highest standards of
+              pedagogy and learner outcomes. Their commitment to lifelong
+              learning and skill transformation continues to shape the
+              platform's evolution. UdemyGo, under their dual leadership, is
+              more than just a platform — it’s a global movement to reshape
+              education through innovation and accessibility.
             </p>
           </div>
         </div>
 
         {/* Right: Empowering Box */}
         <div className="w-full md:w-1/3 bg-gradient-to-br from-[#1e293b] to-[#0f172a] text-white rounded-2xl p-6 md:p-8 shadow-xl">
-          <h3 className="text-lg font-semibold mb-4">Empowering Through Education</h3>
+          <h3 className="text-lg font-semibold mb-4">Who We Are</h3>
           <p className="mb-4">
-            <strong>EduVerticals</strong> is <span className="text-indigo-400">redefining</span> corporate education by bridging the gap between conventional learning and today&apos;s fast-evolving business landscape.
+            <strong>At Udemygo, </strong> is{" "}
+            <span className="text-indigo-400">
+              we aren’t just another edtech platform
+            </span>{" "}
+            we’re your career accelerator. We bridge the gap between ambition
+            and achievement by offering university-grade education that’s
+            flexible, credible, and built for the digital age. Our platform is
+            crafted for dreamers, doers, and professionals who believe that
+            learning should evolve with life — not interrupt it.
           </p>
           <p className="mb-4">
-            We specialize in tailored online MBA programs that empower professionals to excel and organizations to thrive.
+            We specialize in tailored online MBA programs that empower
+            professionals to excel and organizations to thrive.
           </p>
           <p className="mb-4">
-            With cutting-edge courses in Digital Marketing, AI, Finance, and more, we deliver results-driven learning solutions designed to sharpen leadership skills and boost business growth.
+            Our Purpose To democratize access to world-class education and
+            empower learners from every corner of India and beyond to take
+            charge of their personal and professional growth.
           </p>
           <p className="mb-4">
-            Our approach ensures accessibility, flexibility, and measurable impact for learners worldwide.
+            With UdemyGo, your dream university is within reach. Expert
+            Guidance. Global Reach. Real Results. .
           </p>
-          <p className="font-semibold text-indigo-300">Empower. Innovate. Lead with EduVerticals.</p>
+          <p className="mb-4">
+          With strategic guidance and a proven track record, UdemyGo is your trusted partner in turning academic aspirations into global achievements.
+          </p>
+          <p className="font-semibold text-indigo-300">
+            <strong>Udemygo</strong> "Fueling Ambitions, Transforming Lives".
+          </p>
         </div>
       </div>
     </section>

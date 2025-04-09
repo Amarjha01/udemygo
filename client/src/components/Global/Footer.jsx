@@ -15,7 +15,7 @@ const Footer = () => {
                 width="100"
                 height="50"
                 className="object-contain w-40"
-                src={Logo }
+                src={Logo}
               />
             </div>
             <p>
