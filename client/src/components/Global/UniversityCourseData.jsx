@@ -229,7 +229,7 @@ export const universitiesCoursesData = [
       fee: "₹2,80,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -239,7 +239,7 @@ export const universitiesCoursesData = [
       fee: "₹2,80,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -249,7 +249,7 @@ export const universitiesCoursesData = [
       fee: "₹2,80,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -259,7 +259,7 @@ export const universitiesCoursesData = [
       fee: "₹2,50,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -269,7 +269,7 @@ export const universitiesCoursesData = [
       fee: "₹2,50,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -279,7 +279,7 @@ export const universitiesCoursesData = [
       fee: "₹2,50,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
     {
       id: 4,
@@ -289,7 +289,7 @@ export const universitiesCoursesData = [
       fee: "₹2,50,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://pbs.twimg.com/profile_images/88762877138907136/Zau4_WSX_400x400.jpg",
+      logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     },
   ],
   
@@ -303,7 +303,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -313,7 +313,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -323,7 +323,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -333,7 +333,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -343,7 +343,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -353,7 +353,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
     {
       id: 5,
@@ -363,7 +363,7 @@ export const universitiesCoursesData = [
       fee: "₹1,25,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://static.wixstatic.com/media/bff831_b237f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
+      logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
     },
   ],
   // ID 6 - Lovely Professional University
@@ -524,7 +524,7 @@ export const universitiesCoursesData = [
       fee: "₹1,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -534,7 +534,7 @@ export const universitiesCoursesData = [
       fee: "₹1,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -544,7 +544,7 @@ export const universitiesCoursesData = [
       fee: "₹1,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -554,7 +554,7 @@ export const universitiesCoursesData = [
       fee: "₹90,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -564,7 +564,7 @@ export const universitiesCoursesData = [
       fee: "₹90,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -574,7 +574,7 @@ export const universitiesCoursesData = [
       fee: "₹90,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
     {
       id: 8,
@@ -584,7 +584,7 @@ export const universitiesCoursesData = [
       fee: "₹90,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://doonmanagementschool.in/wp-content/uploads/223/04/University-logo-new-oct-scaled-1.jpg",
+      logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     },
   ],
 
@@ -973,7 +973,7 @@ export const universitiesCoursesData = [
       fee: "₹2,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -983,7 +983,7 @@ export const universitiesCoursesData = [
       fee: "₹2,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -993,7 +993,7 @@ export const universitiesCoursesData = [
       fee: "₹2,00,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -1003,7 +1003,7 @@ export const universitiesCoursesData = [
       fee: "₹1,80,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -1013,7 +1013,7 @@ export const universitiesCoursesData = [
       fee: "₹1,80,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -1023,7 +1023,7 @@ export const universitiesCoursesData = [
       fee: "₹1,80,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
     {
       id: 14,
@@ -1033,7 +1033,7 @@ export const universitiesCoursesData = [
       fee: "₹1,80,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://indiaeducationdiary.in/wp-content/uploads/222/01/UPES-LOGO-01.jpg?w=640",
+      logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
     },
   ],
 
@@ -1121,7 +1121,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1131,7 +1131,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1141,7 +1141,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "2 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1151,7 +1151,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1161,7 +1161,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1171,7 +1171,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
     {
       id: 16,
@@ -1181,7 +1181,7 @@ export const universitiesCoursesData = [
       fee: "₹85,000",
       duration: "3 Years",
       emiPlan: true,
-      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
     },
   ],
 
