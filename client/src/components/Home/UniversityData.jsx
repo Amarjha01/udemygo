@@ -143,7 +143,7 @@ export const universityCatalogCardData = [
   },
   {
     id: 2,
-    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdV-meTVkmBp-bk8zPLFShsNf41Im0tjb3_A&s",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzC0Bcea9vAZSQDH8PxOLk_gKPRBhyFEXCUw&s",
     emiPlan: true,
     image:
       "https://onlinecollegestudy.com/wp-content/uploads/2025/02/manipal-uni.jpg",
@@ -582,7 +582,7 @@ export const universityDetailData = {
       "Manipal University Jaipur (MUJ), established in 2011, is a part of the Manipal Education Group. It is a NAAC A+ accredited university offering a variety of undergraduate and postgraduate programs, including its renowned Online MBA program.",
     image:
       "https://onlinecollegestudy.com/wp-content/uploads/2025/02/manipal-uni.jpg",
-    logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Manipal_University_Jaipur_logo.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzC0Bcea9vAZSQDH8PxOLk_gKPRBhyFEXCUw&s",
     year: 2024,
     naac: "A+",
     rank: "101-150",
@@ -1055,11 +1055,11 @@ export const universityDetailData = {
 
 export const wikkiUniversities = [
   {
-    id: "01",
+    id: "1",
     name: "Amity University",
     location: "Noida, Uttar Pradesh",
     description:
-      "Amity University is a private research university offering a wide range of programs in science, technology, arts, and business.",
+      "Amity University is a premier private research university in India, known for its world-class academic ecosystem and industry-aligned curriculum. Offering a broad spectrum of programs in science, technology, engineering, business, arts, law, and healthcare, the university places a strong emphasis on innovation, research, and holistic student development. Its campuses are equipped with cutting-edge facilities, and it maintains strong global partnerships with leading institutions to provide international exposure and opportunities. Amity University isn’t just a place to study — it’s where future leaders, innovators, and change-makers are built. From AI to arts, biotech to business, it offers programs that align with the aspirations of today’s youth. Students benefit from hands-on learning, global internships, and a vibrant campus life that fosters creativity, confidence, and career-readiness. As one of India’s top-ranked private institutions, Amity University stands out for its interdisciplinary approach to education, spanning over 300 academic programs in engineering, sciences, business, humanities, and emerging technologies. The university is driven by a research-intensive culture, supported by advanced laboratories, innovation hubs, and a faculty network that includes leading scholars and professionals. Its commitment to academic rigor, social responsibility, and global engagement makes it a preferred choice among ambitious learners. Amity University is a top private university in India offering globally recognized programs in science, tech, arts, and business, with modern infrastructure and a strong focus on research and industry readiness.",
     image:
       "https://www.learningroutes.in/_next/image?url=https%3A%2F%2Faskusedu.com%2Fblogdashboard%2Fwp-content%2Fuploads%2F2024%2F04%2FAmity-Mohali.webp&w=1920&q=75",
     logo: "https://upload.wikimedia.org/wikipedia/en/f/ff/Amity_University_logo.png",
@@ -1077,14 +1077,14 @@ export const wikkiUniversities = [
     emiPlan: true,
   },
   {
-    id: "02",
+    id: "2",
     name: "Manipal University Jaipur",
     location: "Jaipur, Rajasthan",
     description:
-      "A constituent unit of Manipal Education Group, MUJ offers world-class education with modern infrastructure.",
+      "Manipal University Jaipur (MUJ), a constituent institution of the prestigious Manipal Education Group, delivers world-class education across a range of disciplines. With a strong focus on academic excellence, cutting-edge research, and innovation, MUJ combines state-of-the-art infrastructure with a vibrant learning environment that nurtures future-ready professionals and global citizens. Part of the renowned Manipal Education Group, Manipal University Jaipur (MUJ) is more than just a university — it’s a launchpad for ambitious learners. With world-class faculty, modern facilities, and a forward-thinking curriculum, MUJ empowers students to explore, innovate, and lead in a rapidly evolving global landscape. As a proud constituent of the Manipal Education Group, Manipal University Jaipur (MUJ) upholds a legacy of academic excellence and innovation. The university offers a diverse array of undergraduate and postgraduate programs, supported by top-tier faculty, advanced laboratories, and a student-centric pedagogy. Its modern campus infrastructure and commitment to research make it a preferred destination for quality higher education in India. MUJ, a part of Manipal Education Group, delivers top-tier education with modern infrastructure, global exposure, and industry-aligned programs designed for the leaders of tomorrow.",
     image:
       "https://onlinecollegestudy.com/wp-content/uploads/2025/02/manipal-uni.jpg",
-    logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Manipal_University_Jaipur_logo.png",
+    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzC0Bcea9vAZSQDH8PxOLk_gKPRBhyFEXCUw&s",
     year: 2011,
     naac: "A+",
     rank: "Top 75 in India",
@@ -1099,11 +1099,11 @@ export const wikkiUniversities = [
     emiPlan: true,
   },
   {
-    id: "03",
+    id: "3",
     name: "Sikkim Manipal University",
     location: "Gangtok, Sikkim",
     description:
-      "Sikkim Manipal University is a public-private university known for distance education and quality curriculum.",
+      "Sikkim Manipal University (SMU) is a leading public-private institution renowned for its robust distance education programs and industry-aligned curriculum. With a strong focus on accessibility and academic excellence, SMU empowers students across India to pursue quality higher education from anywhere.Aspirational & Student-Focused Style:Sikkim Manipal University blends flexibility with quality, offering top-notch distance education designed for learners who aspire to grow without boundaries. Its comprehensive, future-ready curriculum ensures students receive the same excellence as on-campus programs — wherever they are.🏛️ Academic & Detailed Style:A pioneering public-private partnership, Sikkim Manipal University (SMU) has established itself as a hub for accessible, high-quality education, especially through its acclaimed distance learning programs. With a curriculum crafted to meet modern industry demands and a strong commitment to student support, SMU continues to reshape the landscape of remote education in India.SMU is a public-private university recognized for its excellence in distance learning and a curriculum designed to meet today’s professional demands..",
     image:
       "https://argroupofeducation.com/wp-content/uploads/2024/02/Sikkim-Manipal-University2.jpg",
     logo: "https://sodleducation.com/img/sikkimmanipallogo.webp",
@@ -1121,11 +1121,11 @@ export const wikkiUniversities = [
     emiPlan: true,
   },
   {
-    id: "04",
+    id: "4",
     name: "Narsee Monjee Institute of Management Studies",
     location: "Mumbai, Maharashtra",
     description:
-      "NMIMS is a top-tier private university offering business and management programs, recognized nationally.",
+      "NMIMS is a prestigious private university in India, renowned for its excellence in business, management, and professional education. Recognized by top academic bodies and consistently ranked among the best, it offers a dynamic learning environment, industry-oriented curriculum, and strong placement support.NMIMS is a premier private university celebrated for shaping future leaders in business and management. With a legacy of academic excellence, real-world exposure, and a vibrant campus life, NMIMS empowers students to thrive in the global marketplace. Academic & Detailed Style:Narsee Monjee Institute of Management Studies (NMIMS) stands among India’s elite private universities, offering a diverse array of programs in business, management, technology, and law. Known for its rigorous academics, strong industry linkages, and high employability, NMIMS has become a preferred destination for aspiring professionals.NMIMS is a nationally recognized private university, offering top-ranked programs in business and management with strong industry integration and placement records..",
     image: "https://www.nmims.edu/images/gallery/navimumbai-campus/1.jpg",
     logo: "https://pbs.twimg.com/profile_images/887620877138907136/Zau4_WSX_400x400.jpg",
     year: 1981,
@@ -1142,11 +1142,11 @@ export const wikkiUniversities = [
     emiPlan: true,
   },
   {
-    id: "05",
+    id: "5",
     name: "D.Y. Patil University",
     location: "Navi Mumbai, Maharashtra",
     description:
-      "D.Y. Patil University is a reputed institute offering diverse programs with a focus on practical learning.",
+      "D.Y. Patil University is a well-established institution known for its commitment to academic excellence and holistic development. Offering a wide range of undergraduate and postgraduate programs across disciplines like medicine, engineering, management, and humanities, the university emphasizes practical learning, innovation, and industry readiness.D.Y. Patil University is a renowned educational hub that combines strong academic foundations with real-world application. With modern infrastructure, experienced faculty, and hands-on learning opportunities, it prepares students to excel in their careers and contribute meaningfully to society.D.Y. Patil University is a reputed private institution offering diverse programs across multiple disciplines, with a strong emphasis on experiential learning and career-oriented education.",
     image:
       "https://gcetl.in/web2manage/images/Universities/University1719920235dyn%20patil.jpg",
     logo: "https://static.wixstatic.com/media/bff831_b2037f9baf424ffeb229a275ab3da890~mv2.png/v1/fill/w_518,h_222,al_c,lg_1,q_85,enc_avif,quality_auto/dyp-online-logo.png",
@@ -1168,7 +1168,7 @@ export const wikkiUniversities = [
     name: "Lovely Professional University",
     location: "Phagwara, Punjab",
     description:
-      "Lovely Professional University (LPU) is one of the largest and most prestigious private universities in India. It offers a wide range of programs across disciplines and is known for its state-of-the-art campus and focus on innovation and entrepreneurship.",
+      "Lovely Professional University (LPU) stands as one of India’s largest and most acclaimed private universities. Renowned for its sprawling campus, advanced infrastructure, and global outlook, LPU offers a diverse array of programs in fields like engineering, management, design, law, and liberal arts. With a strong focus on innovation, research, and entrepreneurship, LPU fosters a dynamic learning environment that prepares students for success in a competitive world.LPU is among India’s premier private universities, offering multidisciplinary education with a modern campus, tech-driven infrastructure, and a strong emphasis on innovation and entrepreneurship.🎓 Student-Friendly Style:Lovely Professional University is not just one of India’s biggest universities—it’s also one of the most forward-thinking. With cutting-edge facilities, a vibrant student life, and programs that blend theory with practice, LPU is a great launchpad for future leaders and changemakers.",
     image:
       "https://images.shiksha.com/mediadata/images/articles/1655635763phpVQHm5C.jpeg",
     logo: "https://i.pinimg.com/736x/c9/12/d4/c912d49f5f63e3c25aae2465f7577e7a.jpg",
@@ -1190,7 +1190,7 @@ export const wikkiUniversities = [
     name: "Chandigarh University",
     location: "Mohali, Punjab",
     description:
-      "Chandigarh University is a private university that offers diverse undergraduate and postgraduate programs. It is known for academic excellence, placements, and global collaborations.",
+      "Chandigarh University is a leading private institution in India, offering a wide spectrum of undergraduate and postgraduate programs across various disciplines. Known for its academic rigor, strong placement record, and industry-aligned curriculum, the university also prides itself on extensive global collaborations and research initiatives that prepare students for international opportunities.Chandigarh University is a top-ranked private university offering diverse UG and PG programs. It’s acclaimed for academic excellence, strong industry tie-ups, outstanding placements, and global partnerships.🎓 Student-Centric Style:Chandigarh University combines quality education with real-world exposure. With top-notch faculty, impressive placement stats, and international tie-ups, it’s a popular choice for students aiming for a successful global career.",
     image:
       "https://blogger.googleusercontent.com/img/a/AVvXsEhhTgvVUO5-bFLFJXtTovOE_f4gMjD1ACVzTfZNKtZonYTe77nV8dSeymhqePAkIFqdKMMvTcAfyFyE2KHVdn5E2wlmQM2y_4ukcw-1Op7EE60jOXY-2qwAqSXvThKC8ldt6LLcdOUYLMNyQvQyXeNT5YEq590_0Nq_frXh9WzPEmUx55T1Ufyj-SLkfw=s16000",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Mx5Ca8jO1s4RjWBQKke3YPNGUsLU2KCrMA&s",
@@ -1212,7 +1212,7 @@ export const wikkiUniversities = [
     name: "Uttaranchal University",
     location: "Dehradun, Uttarakhand",
     description:
-      "Uttaranchal University offers quality education in law, technology, management, and other disciplines. It is committed to fostering academic excellence and holistic development.",
+      "Uttaranchal University is a renowned institution offering high-quality education across disciplines such as law, engineering, management, and applied sciences. With a strong focus on academic excellence, industry relevance, and holistic development, the university provides a dynamic learning environment that nurtures innovation, leadership, and social responsibility.Uttaranchal University is a leading university known for excellence in law, technology, and management education. It emphasizes holistic student growth, cutting-edge curriculum, and career-oriented learning.🎓 Student-Centric Style:At Uttaranchal University, students receive more than just classroom education — they experience hands-on learning, industry interaction, and personal development. From law to tech, it’s a hub for shaping skilled professionals ready to thrive.",
     image: "https://www.uudoon.in/about/images/about-image-1.jpg",
     logo: "https://doonmanagementschool.in/wp-content/uploads/2023/04/University-logo-new-oct-scaled-1.jpg",
     year: 2013,
@@ -1233,7 +1233,7 @@ export const wikkiUniversities = [
     name: "GLA University",
     location: "Mathura, Uttar Pradesh",
     description:
-      "GLA University is a well-known institution for technical and management education in North India. It emphasizes academic rigor and research-focused programs.",
+      "GLA University is a premier educational institution in North India, recognized for its strong foundation in technical and management education. The university fosters academic excellence through a rigorous curriculum, experienced faculty, and a research-driven approach, preparing students for global careers and innovation-led industries.Located in the heart of North India, GLA University stands out for its quality education in engineering, management, and applied sciences. With a strong emphasis on research, skill development, and industry integration, it nurtures future-ready professionals.🎓 Student-Centric Version:GLA University offers top-tier programs in engineering and business, supported by experienced faculty and modern infrastructure. Its focus on practical learning, research, and career readiness makes it a popular choice among ambitious students.",
     image: "https://www.gla.ac.in/images/institute-overview.jpg",
     logo: "https://upload.wikimedia.org/wikipedia/en/4/42/GLA_University_logo.png",
     year: 1998,
@@ -1275,7 +1275,7 @@ export const wikkiUniversities = [
     name: "Shoolini University",
     location: "Solan, Himachal Pradesh",
     description:
-      "Shoolini University is a research-driven private university known for its focus on innovation and quality education. It offers a range of undergraduate and postgraduate programs across various disciplines.",
+      "Shoolini University is a leading research-centric private university that stands out for its commitment to academic excellence, innovation, and global competitiveness. Offering a diverse range of undergraduate and postgraduate programs, the university places strong emphasis on research, entrepreneurship, and industry-oriented learning.Shoolini University is a high-ranking private institution recognized for its strong research output and innovation-driven ecosystem. It provides comprehensive programs across science, engineering, management, and humanities, preparing students for future-ready careers.🎓 Student-Focused Version:At Shoolini University, learning goes beyond classrooms. With world-class faculty, cutting-edge labs, and a strong research focus, students are empowered to innovate, explore, and succeed across various academic disciplines.",
     image:
       " https://distanceeducationschool.com/wp-content/uploads/2024/05/university-page-shoolini-DES.webp",
     logo: " https://online.shooliniuniversity.com/distance/assets/img/logo.png",
@@ -1297,7 +1297,7 @@ export const wikkiUniversities = [
     name: "Sharda University",
     location: "Greater Noida, Uttar Pradesh",
     description:
-      "Sharda University is a leading educational institution offering a wide range of undergraduate and postgraduate programs. It is known for its diverse student body and emphasis on holistic learning.",
+      "🏛️ Professional Description:Sharda University is a premier multi-disciplinary institution offering a comprehensive range of undergraduate and postgraduate programs. Renowned for its academic excellence, modern infrastructure, and international collaborations, the university fosters a global learning environment that emphasizes holistic development and innovation.Sharda University is a top-tier university known for its dynamic campus life, diverse academic offerings, and a strong focus on global exposure and interdisciplinary learning. With students from over 95 countries, it creates a culturally rich and inclusive educational experience.Sharda University blends academic excellence with global perspectives, offering programs that prepare students for success in a rapidly evolving world.",
     image:
       "https://media.collegedekho.com/media/img/institute/crawled_images/1496464164Sharda800x414.jpg",
     logo: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK4Pd52Bzy8GLLUsBcY91yPN0VFzkERuN7-g&s",
@@ -1319,7 +1319,7 @@ export const wikkiUniversities = [
     name: "Parul University",
     location: "Vadodara, Gujarat",
     description:
-      "Parul University is a multidisciplinary institution offering a range of programs in engineering, management, arts, and more. It is recognized for its emphasis on practical learning and industry exposure.",
+      "🏛️ Professional Description:Parul University is a leading multidisciplinary institution that offers a diverse portfolio of programs in engineering, management, arts, healthcare, and more. Known for its strong emphasis on experiential learning, industry collaborations, and cutting-edge infrastructure, the university prepares students to meet real-world challenges with confidence and competence.Parul University stands out for its innovative teaching methods, hands-on training, and global exposure. With a vibrant campus life and strong industry linkages, it fosters both academic excellence and personal growth.Parul University blends academic diversity with industry-oriented education, empowering students through practical learning and innovation.",
     image:
       "https://i.pinimg.com/736x/35/4e/41/354e41b970004cac05cbe77bbc681ad8.jpg",
     logo: "https://paruluniversity.ac.in/pu-content/uploads/2021/12/pu-logo.png",
@@ -1341,7 +1341,7 @@ export const wikkiUniversities = [
     name: "UPES",
     location: "Dehradun, Uttarakhand",
     description:
-      "The University of Petroleum and Energy Studies (UPES) specializes in programs related to energy and petroleum sectors, along with law, business, and design courses. It is known for its industry-aligned curriculum.",
+      "🏛️ Professional Description:The University of Petroleum and Energy Studies (UPES) is a premier institution renowned for its specialized programs in energy, petroleum, and allied sectors. In addition to its core focus, UPES also offers cutting-edge programs in law, business, design, computer science, and engineering. With a strong industry-aligned curriculum, modern infrastructure, and emphasis on innovation, UPES prepares students for future-ready careers in high-demand industries.UPES stands out for its niche academic focus in energy and petroleum, while also excelling in areas like law, business, and technology. Its commitment to industry relevance and holistic development makes it a top choice for aspiring professionals.UPES is a specialized university offering industry-driven programs in energy, law, business, and design, known for its innovation and academic excellence.",
     image:
       " https://collegewaale.com/upes/wp-content/uploads/2023/12/upes-1-1024x768.webp",
     logo: " https://indiaeducationdiary.in/wp-content/uploads/2022/01/UPES-LOGO-01.jpg?w=640",
@@ -1363,7 +1363,7 @@ export const wikkiUniversities = [
     name: "Vignan's University",
     location: "Guntur, Andhra Pradesh",
     description:
-      "Vignan's Foundation for Science, Technology & Research is a private university offering programs in engineering, science, and management. It is committed to providing quality education and research opportunities.",
+      "Vignan’s Foundation for Science, Technology & Research is a reputed private university dedicated to academic excellence in the fields of engineering, science, and management. The institution fosters a dynamic learning environment with a strong emphasis on research, innovation, and industry collaboration. With state-of-the-art infrastructure and experienced faculty, Vignan’s prepares students to meet global challenges with confidence and competence.Vignan’s University offers top-notch programs in engineering, science, and management. It is recognized for its academic rigor, research orientation, and student-centric approach to learning.Vignan’s is a leading private university focused on engineering, science, and management, known for academic excellence and research-driven education.",
     image: " https://vignan.ac.in/images/apex/5.jpg",
     logo: "https://content.jdmagicbox.com/v2/comp/hyderabad/64/040p7005064/catalogue/vignan-institute-of-technology-and-science-kukatpally-hyderabad-engineering-colleges-pe113r.jpg",
     year: 2008,
@@ -1384,7 +1384,7 @@ export const wikkiUniversities = [
     name: "Vivekananda Global University",
     location: "Jaipur, Rajasthan",
     description:
-      "Vivekananda Global University is one of the leading private universities in Rajasthan, offering courses in engineering, management, law, and basic sciences. The university focuses on innovation, research, and holistic development.",
+      "🏛️ Professional Description:Vivekananda Global University (VGU) is one of Rajasthan’s premier private universities, offering a wide array of programs in engineering, management, law, basic sciences, and more. Known for its commitment to innovation and research, VGU emphasizes experiential learning, industry integration, and holistic student development. With a modern campus, strong academic framework, and global collaborations, the university is shaping future-ready professionals across disciplines.Vivekananda Global University is a top-ranked private university in Rajasthan offering programs in engineering, law, management, and sciences. It is known for its research-driven approach and student-centric learning.VGU is a leading private university in Rajasthan, focused on innovation, research, and multidisciplinary education.",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLM3_HyshA0jjzj3r7qnynSwaiVVCsUnld6A&s",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Vivekananda-global-university-jaipur.jpg",
@@ -1405,7 +1405,7 @@ export const wikkiUniversities = [
     name: "Aligarh Muslim University",
     location: "Aligarh, Uttar Pradesh",
     description:
-      "Aligarh Muslim University is a central university known for its rich heritage, academic excellence, and cultural diversity. It offers a wide array of undergraduate and postgraduate programs.",
+      "🏛️ Professional Description:Aligarh Muslim University (AMU) is one of India’s oldest and most prestigious central universities, renowned for its rich cultural heritage, academic excellence, and commitment to inclusive education. Established in 1920, AMU offers a wide spectrum of undergraduate, postgraduate, and doctoral programs across disciplines such as humanities, sciences, engineering, law, and social sciences. The university fosters intellectual growth and national integration while preserving its deep-rooted traditions and values.Aligarh Muslim University is a central university with a historic legacy, offering diverse UG and PG programs. It is celebrated for its academic excellence, inclusive environment, and cultural richness.AMU is a historic central university known for academic excellence and cultural diversity.Let me know if you’d like this version adapted for your frontend display or metadata for SEO!",
     image:
       " https://www.guidanceforever.org/wp-content/uploads/2023/10/aligarh-muslim-university-aligarh-featured-2.jpg",
     logo: " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQskJ0c3dzaabVW_PWcxTUViMR2PQmpHOKfJg&s",
@@ -1427,7 +1427,7 @@ export const wikkiUniversities = [
     name: "Amrita Vishwa Vidyapeetham",
     location: "Coimbatore, Tamil Nadu",
     description:
-      "Amrita Vishwa Vidyapeetham is a multi-campus, multi-disciplinary research university known for its focus on education, research, and humanitarian values. It is a top-ranked private university in India.",
+      "🏛️ Professional Description:Amrita Vishwa Vidyapeetham is a premier multi-campus, multi-disciplinary research-intensive university in India, renowned for its strong emphasis on academic excellence, cutting-edge research, and humanitarian values. With campuses spread across different states, Amrita offers a diverse range of undergraduate, postgraduate, and doctoral programs in engineering, medicine, management, social sciences, and more. It is consistently ranked among the top private universities in India and is recognized for its commitment to societal development and global collaboration.Amrita Vishwa Vidyapeetham is a leading private research university in India, known for its academic rigor, global collaborations, and focus on education with compassion and societal impact.",
     image:
       "https://images.shiksha.com/mediadata/images/articles/1587994716phpmjYKDq.jpeg",
     logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Amrita-vishwa-vidyapeetham-logo.svg/2560px-Amrita-vishwa-vidyapeetham-logo.svg.png",
@@ -1449,7 +1449,7 @@ export const wikkiUniversities = [
     name: "Dr. D. Y. Patil Vidyapeeth University (DPU)",
     location: "Pune, Maharashtra",
     description:
-      "Dr. D. Y. Patil Vidyapeeth, Pune is a deemed-to-be university recognized for its contribution in the fields of health sciences, management, and technology education.",
+      "Dr. D. Y. Patil Vidyapeeth, Pune is a reputed deemed-to-be university that has made significant contributions in the domains of health sciences, management, and technology education. Known for its state-of-the-art infrastructure, experienced faculty, and focus on research and innovation, the university provides a dynamic learning environment that nurtures academic excellence and professional growth. It is also recognized for its strong industry interface and emphasis on practical, career-oriented training.Dr. D. Y. Patil Vidyapeeth, Pune is a leading deemed university offering quality education in health sciences, management, and technology, with a focus on innovation, research, and industry relevance.",
     image:
       " https://sardarpateleducation.com/wp-content/uploads/2025/02/Infrastructure-01-1.jpg",
     logo: "https://upload.wikimedia.org/wikipedia/commons/8/87/Dr._D._Y._Patil_Medical_College%2C_Hospital_%26_Research_Centre_logo.jpg",
@@ -1471,7 +1471,7 @@ export const wikkiUniversities = [
     name: "Jamia Hamdard University",
     location: "New Delhi",
     description:
-      "Jamia Hamdard is a deemed university offering professional courses in modern medicine, pharmacy, and management. It is renowned for its excellence in Unani and allied medical sciences.",
+      "Jamia Hamdard is a prestigious deemed university located in New Delhi, widely recognized for its academic excellence in modern medicine, pharmacy, management, and especially Unani and allied medical sciences. With a legacy rooted in healthcare and holistic education, the university offers a wide range of professional courses designed to meet modern industry standards while preserving traditional knowledge systems. Its research-driven environment, experienced faculty, and emphasis on innovation make it a leading institution for aspiring healthcare professionals.",
       image: " https://jamiahamdard.edu/images/explore-kings-accommodation.jpg",
       logo: "https://jamiahamdard.edu/images/top-logo.png",
     year: 1989,
@@ -1492,7 +1492,7 @@ export const wikkiUniversities = [
     name: "Mizoram University",
     location: "Aizawl, Mizoram",
     description:
-      "Mizoram University is a central university established by the Indian government offering courses in science, commerce, humanities, and vocational studies.",
+      "Mizoram University is a central university established by the Government of India, dedicated to providing quality higher education in the northeastern region. The university offers a broad spectrum of academic programs in science, commerce, humanities, and vocational studies. With a focus on regional development, cultural preservation, and academic excellence, Mizoram University fosters a vibrant research environment and promotes inclusive learning. Its scenic campus, diverse student body, and commitment to innovation make it a prominent institution in India’s higher education landscape.",
       image:
       " https://image-static.collegedunia.com/public/college_data/images/appImage/1513313634adminbuilding02.jpg?h=260&w=360&mode=crop",
     logo: " https://www.yugedu.com/media/654/mizoram-university-online-logo.png",
@@ -1514,7 +1514,7 @@ export const wikkiUniversities = [
     name: "Kurukshetra University",
     location: "Kurukshetra, Haryana",
     description:
-      "Kurukshetra University is a state university known for its wide range of academic programs and historical significance in Indian education.",
+      "Kurukshetra University is a prominent state university in Haryana, renowned for its academic heritage and cultural legacy. Established in 1956, the university offers a diverse range of undergraduate, postgraduate, and doctoral programs across disciplines such as arts, science, law, management, and education. With a sprawling campus and a commitment to academic excellence, Kurukshetra University has played a pivotal role in shaping higher education in North India. It is also recognized for fostering research, promoting extracurricular engagement, and preserving the historical and spiritual significance of the region.",
       image: "https://ku.digitaluniversity.ac/user/pages/images/slides/s3.jpg",
       logo: "https://upload.wikimedia.org/wikipedia/en/1/1d/Kurukshetra_University_logo.png",
     year: 1956,

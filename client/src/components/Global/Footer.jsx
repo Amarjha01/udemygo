@@ -88,7 +88,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/university/8"
+                  to="/university/4"
                 >
                   NMIMS
                 </NavLink>
@@ -96,7 +96,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/university/20"
+                  to="/university/2"
                 >
                   Manipal (MJU Online)
                 </NavLink>
@@ -104,7 +104,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/university/5"
+                  to="/university/8"
                 >
                   UTTRANCHAL UNIVERSITY
                 </NavLink>
@@ -120,7 +120,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/university/3"
+                  to="/university/6"
                 >
                   L.P.U.
                 </NavLink>
@@ -128,7 +128,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/university/13"
+                  to="/university/3"
                 >
                   Manipal Sikkim
                 </NavLink>
@@ -167,7 +167,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/explore-universities/course-catalog"
+                  to={`/explore-universities/course-catalog?filter=${'PG'}`}
                 >
                   PG Courses
                 </NavLink>
@@ -175,7 +175,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/explore-universities/course-catalog"
+                  to={`/explore-universities/course-catalog?filter=${'UG'}`}
                 >
                   UG Courses
                 </NavLink>
@@ -183,7 +183,7 @@ const Footer = () => {
               <li>
                 <NavLink
                   className="text-sm py-2 block capitalize hover:translate-x-1 transition-all"
-                  to="/explore-universities/course-catalog?filter=PG"
+                  to={`/explore-universities/course-catalog?filter=${'Executive MBA'}`}
                 >
                   Executive MBA
                 </NavLink>

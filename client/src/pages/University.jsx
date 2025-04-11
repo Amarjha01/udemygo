@@ -3,6 +3,7 @@ import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 import {universityDetailData} from '../components/Home/UniversityData.jsx'
+import WikiUniversity from "../components/Wikki/WikkiUniversity.jsx";
 
 const University = () => {
   const { id } = useParams();
@@ -45,12 +46,13 @@ const University = () => {
               Whatsapp
             </button>
           </a>
-          <NavLink
-            to="/about"
+          
+          <a
+            href={`#wiki-${university.id}`}
             className="px-6 py-3 border-2 border-[#181e2e] rounded-xl font-bold cursor-pointer z-10 text-center"
           >
             Learn More
-          </NavLink>
+          </a>
         </div>
         </div>
 
@@ -92,6 +94,7 @@ const University = () => {
         </div>
       </div>
     </div>
+    <WikiUniversity id={(id)}/>
 </div>
   );
 };
