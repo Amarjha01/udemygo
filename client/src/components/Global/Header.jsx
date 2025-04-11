@@ -4,6 +4,7 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 import { X } from "lucide-react";
 import { gsap } from "gsap";
 import "../custome.css";
+import Logo from "../../assets/UDEMYGO-LOGO.webp";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,6 +53,7 @@ const Header = () => {
     { name: "University", path: "/explore-universities/university-catalog" },
     { name: "Courses", path: "/explore-universities/course-catalog" },
     { name: "Contact", path: "/contact" },
+    { name: "Placement", path: "/placement" },
   ];
 
   useEffect(() => {
@@ -65,7 +67,7 @@ const Header = () => {
       <div className={`h-20 p-4 mt-6 w-[90%] md:w-[70%] md:max-w-[1150px] bg-amber-0 fixed z-50 flex items-center justify-between rounded-full shadow-2xl backdrop-blur-xl
        ${ isScrolled ? "-translate-y-5 md:-translate-y-15" : "translate-y-0"} `}>
         <div className="w-16">
-          <NavLink to={"/"}><img src="UDEMYGO-LOGO.webp" alt="logo" className="cursor-pointer" /></NavLink>
+          <NavLink to={"/"}><img src={Logo} alt="logo" className="cursor-pointer" /></NavLink>
         </div>
 
         <ul className="hidden lg:flex items-center space-x-1 bg-gray-200 py-3 px-2 rounded-full text-lg font-semibold">
@@ -81,6 +83,7 @@ const Header = () => {
             )}
           </li>
           <li><NavLink to="/contact" className={({ isActive }) => `px-4 py-3 rounded-full transition-all ${isActive ? "bg-black text-white" : "hover:bg-black hover:text-white cursor-pointer"}`}>Contact</NavLink></li>
+          <li><NavLink to="/placement" className={({ isActive }) => `px-4 py-3 rounded-full transition-all ${isActive ? "bg-black text-white" : "hover:bg-black hover:text-white cursor-pointer"}`}>Placement</NavLink></li>
         </ul>
 
         <div className="relative cursor-pointer flex items-center">

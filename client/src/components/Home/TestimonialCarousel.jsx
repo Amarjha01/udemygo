@@ -27,8 +27,8 @@ const testimonials = [
   },
   {
     name: "Sophia Lewis",
-    title: "M.Sc. Biotechnology",
-    text: "The faculty and research opportunities exceeded my expectations! This program has set me up for a successful research career.",
+    title: "MBA Digital Marketing",
+    text: "The faculty and research opportunities exceeded my expectations! This program has set me up for a successful Digital Marketing career.",
   },
   {
     name: "Rahul Nair",
@@ -42,8 +42,8 @@ const testimonials = [
   },
   {
     name: "Aditya Roy",
-    title: "M.Tech AI & ML",
-    text: "The AI-focused curriculum and real-world projects have given me an edge in the job market!",
+    title: "MBA Finance",
+    text: "The focused curriculum and real-world exposure have given me an edge in the job market!",
   }
 ];
 

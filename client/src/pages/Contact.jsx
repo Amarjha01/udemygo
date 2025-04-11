@@ -171,7 +171,7 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-3">
             <FaEnvelope className="text-[#bd1e2d] text-2xl" />
-            <a href="mailto:eduomnipvtltd@gmail.com">eduomnipvtltd@gmail.com</a>
+            <a href="mailto:eduomnipvtltd@gmail.com">info@udemygo.com</a>
           </div>
           <div className="flex items-center gap-3">
             <FaPhoneAlt className="text-[#bd1e2d] text-2xl" />
